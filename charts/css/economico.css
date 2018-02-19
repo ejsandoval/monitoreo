@@ -1,0 +1,62 @@
+.viz{
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+#viz_0{
+  width: 600px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+#viz_1{
+  width: 650px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#viz_2{
+  width: 650px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#viz_3{
+  width: 650px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#viz_4{
+  width: 650px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#viz_5{
+  width: 650px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#viz_6{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.column{
+  padding: 1%;
+  margin: 0 auto;
+}
+
+.viz svg{
+	overflow: visible;
+}
+
+body{
+  background-color: #CFC1B2;
+}

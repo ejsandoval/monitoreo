@@ -1,0 +1,63 @@
+@font-face {
+  font-family: sourceBold;
+  src: url(fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+  font-family: sourceBlack;
+  src: url(fonts/SourceSansPro-Black.otf);
+}
+
+@font-face {
+  font-family: sourceSemi;
+  src: url(fonts/SourceSansPro-Semibold.ttf);
+}
+
+@font-face {
+  font-family: source;
+  src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+.tooltip-table {
+  width: 100%;
+}
+
+.tooltip-table .data {
+  text-align: right;
+}
+
+.tooltip-footer {
+  opacity: 0.5;
+}
+
+.viz{
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.column{
+  padding: 1%;
+  margin: 0 auto;
+}
+
+.viz svg{
+	overflow: visible;
+}
+
+svg text{
+	font-family: source;
+}
+
+h2 {
+  font-family: sourceBold;
+  font-size: 14px;
+  text-align: center;
+}
+
+p {
+  font-family: source;
+  font-size: 12px;
+  text-align: center;
+}
