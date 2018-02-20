@@ -1,0 +1,2782 @@
+[{
+    "name": "HuellaEcologica",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "value": 4.36,
+            "type": "Huella Ecologica*",
+            "year": 2016
+        }, {
+            "value": 3.63,
+            "type": "Biocapacidad**",
+            "year": 2016
+        }, {
+            "value": 4.35,
+            "type": "Huella Ecologica*",
+            "year": 2013
+        }, {
+            "value": 3.67,
+            "type": "Biocapacidad**",
+            "year": 2013
+        }, {
+            "value": 4.35,
+            "type": "Huella Ecologica*",
+            "year": 2012
+        }, {
+            "value": 3.62,
+            "type": "Biocapacidad**",
+            "year": 2012
+        }, {
+            "value": 4.41,
+            "type": "Huella Ecologica*",
+            "year": 2011
+        }, {
+            "value": 3.68,
+            "type": "Biocapacidad**",
+            "year": 2011
+        }, {
+            "value": 4.22,
+            "type": "Huella Ecologica*",
+            "year": 2010
+        }, {
+            "value": 3.66,
+            "type": "Biocapacidad**",
+            "year": 2010
+        }, {
+            "value": 3.71,
+            "type": "Huella Ecologica*",
+            "year": 2009
+        }, {
+            "value": 3.61,
+            "type": "Biocapacidad**",
+            "year": 2009
+        }, {
+            "value": 4.15,
+            "type": "Huella Ecologica*",
+            "year": 2008
+        }, {
+            "value": 3.65,
+            "type": "Biocapacidad**",
+            "year": 2008
+        }, {
+            "value": 4.03,
+            "type": "Huella Ecologica*",
+            "year": 2007
+        }, {
+            "value": 3.68,
+            "type": "Biocapacidad**",
+            "year": 2007
+        }, {
+            "value": 3.89,
+            "type": "Huella Ecologica*",
+            "year": 2006
+        }, {
+            "value": 3.79,
+            "type": "Biocapacidad**",
+            "year": 2006
+        }, {
+            "value": 3.8,
+            "type": "Huella Ecologica*",
+            "year": 2005
+        }, {
+            "value": 3.82,
+            "type": "Biocapacidad**",
+            "year": 2005
+        }, {
+            "value": 3.77,
+            "type": "Huella Ecologica*",
+            "year": 2004
+        }, {
+            "value": 3.86,
+            "type": "Biocapacidad**",
+            "year": 2004
+        }, {
+            "value": 3.48,
+            "type": "Huella Ecologica*",
+            "year": 2003
+        }, {
+            "value": 3.87,
+            "type": "Biocapacidad**",
+            "year": 2003
+        }, {
+            "value": 3.53,
+            "type": "Huella Ecologica*",
+            "year": 2002
+        }, {
+            "value": 3.89,
+            "type": "Biocapacidad**",
+            "year": 2002
+        }, {
+            "value": 3.44,
+            "type": "Huella Ecologica*",
+            "year": 2001
+        }, {
+            "value": 3.89,
+            "type": "Biocapacidad**",
+            "year": 2001
+        }, {
+            "value": 3.76,
+            "type": "Huella Ecologica*",
+            "year": 2000
+        }, {
+            "value": 3.87,
+            "type": "Biocapacidad**",
+            "year": 2000
+        }, {
+            "year": 2014
+        }, {
+            "year": 2015
+        }]
+    },
+    "context": "ambiental"
+}, {
+    "name": "Actividademprendedora",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "year": "2005",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 11.0
+        }, {
+            "year": "2006",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 9.0
+        }, {
+            "year": "2007",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 13.0
+        }, {
+            "year": "2008",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 13.0
+        }, {
+            "year": "2009",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 15.0
+        }, {
+            "year": "2010",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 17.0
+        }, {
+            "year": "2011",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 24.0
+        }, {
+            "year": "2012",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 23.0
+        }, {
+            "year": "2013",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 24.0
+        }, {
+            "year": "2014",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 27.0
+        }, {
+            "year": "2015",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 26.0
+        }, {
+            "year": "2016",
+            "type": "Emprendedores en etapas iniciales",
+            "value": 24.0
+        }, {
+            "year": "2005",
+            "type": "Empresarios establecidos",
+            "value": 4.0
+        }, {
+            "year": "2006",
+            "type": "Empresarios establecidos",
+            "value": 7.0
+        }, {
+            "year": "2007",
+            "type": "Empresarios establecidos",
+            "value": 9.0
+        }, {
+            "year": "2008",
+            "type": "Empresarios establecidos",
+            "value": 7.0
+        }, {
+            "year": "2009",
+            "type": "Empresarios establecidos",
+            "value": 7.0
+        }, {
+            "year": "2010",
+            "type": "Empresarios establecidos",
+            "value": 6.0
+        }, {
+            "year": "2011",
+            "type": "Empresarios establecidos",
+            "value": 7.0
+        }, {
+            "year": "2012",
+            "type": "Empresarios establecidos",
+            "value": 8.0
+        }, {
+            "year": "2013",
+            "type": "Empresarios establecidos",
+            "value": 8.0
+        }, {
+            "year": "2014",
+            "type": "Empresarios establecidos",
+            "value": 9.0
+        }, {
+            "year": "2015",
+            "type": "Empresarios establecidos",
+            "value": 8.0
+        }, {
+            "year": "2016",
+            "type": "Empresarios establecidos",
+            "value": 8.0
+        }]
+    },
+    "context": "cti"
+}, {
+    "name": "AportedelaCTenInnovacion",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "area": "Salud",
+            "type": "Si",
+            "value": 94.5
+        }, {
+            "area": "Salud",
+            "type": "No ",
+            "value": 4.1
+        }, {
+            "area": "Telecomunicaciones",
+            "type": "Si",
+            "value": 89.7
+        }, {
+            "area": "Telecomunicaciones",
+            "type": "No ",
+            "value": 7.4
+        }, {
+            "area": "Medio Ambiente",
+            "type": "Si",
+            "value": 87.2
+        }, {
+            "area": "Medio Ambiente",
+            "type": "No ",
+            "value": 9.9
+        }, {
+            "area": "Educacion",
+            "type": "Si",
+            "value": 86.7
+        }, {
+            "area": "Educacion",
+            "type": "No ",
+            "value": 11.1
+        }, {
+            "area": "Desempeno de las empresas",
+            "type": "Si",
+            "value": 83.4
+        }, {
+            "area": "Desempeno de las empresas",
+            "type": "No ",
+            "value": 12.2
+        }, {
+            "area": "Calidad de vida de la poblacion ",
+            "type": "Si",
+            "value": 82.5
+        }, {
+            "area": "Calidad de vida de la poblacion ",
+            "type": "No ",
+            "value": 13.7
+        }]
+    },
+    "context": "cti"
+}, {
+    "name": "BeneficiosdelaCTI",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "value": 51.5,
+            "opinion": "Muchos beneficios "
+        }, {
+            "value": 33.4,
+            "opinion": "Bastantes beneficios "
+        }, {
+            "value": 10.7,
+            "opinion": "Pocos Beneficios"
+        }, {
+            "value": 2.7,
+            "opinion": "Ningun beneficio"
+        }]
+    },
+    "context": "cti"
+}, {
+    "name": "ContribuciondelaCTI",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "idea": "La ciencia y la tecnologia estan haciendo que nuestras vidas sean mas faciles y comodas",
+            "value": 74.1,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La ciencia y la tecnologia estan haciendo que nuestras vidas sean mas faciles y comodas",
+            "value": 16.5,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La ciencia y la tecnologia estan haciendo que nuestras vidas sean mas faciles y comodas",
+            "value": 7.8,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "La C y T nos han ayudado a entender de mejor forma los desastres naturales",
+            "value": 66.6,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La C y T nos han ayudado a entender de mejor forma los desastres naturales",
+            "value": 19.3,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La C y T nos han ayudado a entender de mejor forma los desastres naturales",
+            "value": 12.8,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "La ciencia proporciona el conocimiento mas confiable sobre el mundo",
+            "value": 53.8,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La ciencia proporciona el conocimiento mas confiable sobre el mundo",
+            "value": 26.6,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La ciencia proporciona el conocimiento mas confiable sobre el mundo",
+            "value": 15.1,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "La C y T contribuyen a mejorar el medioambiente",
+            "value": 53.0,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La C y T contribuyen a mejorar el medioambiente",
+            "value": 24.1,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La C y T contribuyen a mejorar el medioambiente",
+            "value": 21.3,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "La C y T nos han ayudado a mejorar nuestra alimentacion",
+            "value": 46.6,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La C y T nos han ayudado a mejorar nuestra alimentacion",
+            "value": 24.6,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La C y T nos han ayudado a mejorar nuestra alimentacion",
+            "value": 26.7,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "El desarrollo cientifico-tecnologico ayudara a disminuir las desigualdades sociales",
+            "value": 29.1,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "El desarrollo cientifico-tecnologico ayudara a disminuir las desigualdades sociales",
+            "value": 25.0,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "El desarrollo cientifico-tecnologico ayudara a disminuir las desigualdades sociales",
+            "value": 40.8,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "La C y T son responsables por la mayor parte de los problemas medioambientales que tenemos en la actualidad",
+            "value": 55.1,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La C y T son responsables por la mayor parte de los problemas medioambientales que tenemos en la actualidad",
+            "value": 25.3,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La C y T son responsables por la mayor parte de los problemas medioambientales que tenemos en la actualidad",
+            "value": 16.6,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "Los cientificos se esfuerzan poco en informar al publico sobre su trabajo",
+            "value": 61.7,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "Los cientificos se esfuerzan poco en informar al publico sobre su trabajo",
+            "value": 16.5,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "Los cientificos se esfuerzan poco en informar al publico sobre su trabajo",
+            "value": 12.7,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "Dependemos demasiado de la ciencia y no lo suficiente de la fe",
+            "value": 64.5,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "Dependemos demasiado de la ciencia y no lo suficiente de la fe",
+            "value": 20.3,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "Dependemos demasiado de la ciencia y no lo suficiente de la fe",
+            "value": 11.0,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "Las aplicaciones de la ciencia y la tecnologia estan haciendo que se pierdan puestos de trabajo",
+            "value": 64.7,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "Las aplicaciones de la ciencia y la tecnologia estan haciendo que se pierdan puestos de trabajo",
+            "value": 20.2,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "Las aplicaciones de la ciencia y la tecnologia estan haciendo que se pierdan puestos de trabajo",
+            "value": 12.2,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "La C y T estan produciendo un estilo de vida artificial",
+            "value": 71.1,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La C y T estan produciendo un estilo de vida artificial",
+            "value": 17.5,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La C y T estan produciendo un estilo de vida artificial",
+            "value": 8.5,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }, {
+            "idea": "La ciencia hace que nuestro modo de vida cambie demasiado rapido",
+            "value": 76.8,
+            "opinion": "Muy de acuerdo + De acuerdo"
+        }, {
+            "idea": "La ciencia hace que nuestro modo de vida cambie demasiado rapido",
+            "value": 15.0,
+            "opinion": "Ni en acuerdo ni en desacuerdo"
+        }, {
+            "idea": "La ciencia hace que nuestro modo de vida cambie demasiado rapido",
+            "value": 6.1,
+            "opinion": "Muy en desacuerdo + En desacuerdo "
+        }]
+    },
+    "context": "cti"
+}, {
+    "name": "Prestigioprofesionescientific",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "profesion": "Medicos",
+            "value": 4.5,
+            "opinion": "1 a 2"
+        }, {
+            "profesion": "Medicos",
+            "value": 11.6,
+            "opinion": "3"
+        }, {
+            "profesion": "Medicos",
+            "value": 83.7,
+            "opinion": "4 a 5"
+        }, {
+            "profesion": "Ingenieros/as",
+            "value": 5.1,
+            "opinion": "1 a 2"
+        }, {
+            "profesion": "Ingenieros/as",
+            "value": 15.3,
+            "opinion": "3"
+        }, {
+            "profesion": "Ingenieros/as",
+            "value": 78.8,
+            "opinion": "4 a 5"
+        }, {
+            "profesion": "Cientificos/as",
+            "value": 6.0,
+            "opinion": "1 a 2"
+        }, {
+            "profesion": "Cientificos/as",
+            "value": 13.4,
+            "opinion": "3"
+        }, {
+            "profesion": "Cientificos/as",
+            "value": 78.6,
+            "opinion": "4 a 5"
+        }]
+    },
+    "context": "cti"
+}, {
+    "name": "RazonesparatrabajarenCTI",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "razon": "Vocacion por la investigacion",
+            "value": 87.9,
+            "area": "Ciencia"
+        }, {
+            "razon": "Vocacion por la investigacion",
+            "value": 79.6,
+            "area": "Tecnologia "
+        }, {
+            "razon": "Conocer la verdad",
+            "value": 87.7,
+            "area": "Ciencia"
+        }, {
+            "razon": "Conocer la verdad",
+            "value": 74.0,
+            "area": "Tecnologia "
+        }, {
+            "razon": "Entender mejor el entorno",
+            "value": 86.4,
+            "area": "Ciencia"
+        }, {
+            "razon": "Entender mejor el entorno",
+            "value": 77.5,
+            "area": "Tecnologia "
+        }, {
+            "razon": "Solucionar los problemas de la gente",
+            "value": 78.6,
+            "area": "Ciencia"
+        }, {
+            "razon": "Solucionar los problemas de la gente",
+            "value": 75.5,
+            "area": "Tecnologia "
+        }, {
+            "razon": "Tener prestigio",
+            "value": 69.1,
+            "area": "Ciencia"
+        }, {
+            "razon": "Tener prestigio",
+            "value": 73.2,
+            "area": "Tecnologia "
+        }, {
+            "razon": "Ganar dinero",
+            "value": 64.2,
+            "area": "Ciencia"
+        }, {
+            "razon": "Ganar dinero",
+            "value": 76.7,
+            "area": "Tecnologia "
+        }, {
+            "razon": "Tener poder",
+            "value": 49.2,
+            "area": "Ciencia"
+        }, {
+            "razon": "Tener poder",
+            "value": 57.4,
+            "area": "Tecnologia "
+        }]
+    },
+    "context": "cti"
+}, {
+    "name": "RiesgosdelaCTI",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "value": 39.4,
+            "opinion": "Muchos riesgos "
+        }, {
+            "value": 31.4,
+            "opinion": "Bastantes riesgos "
+        }, {
+            "value": 22.4,
+            "opinion": "Pocos riesgos "
+        }, {
+            "value": 3.8,
+            "opinion": "Ningun riesgo "
+        }]
+    },
+    "context": "cti"
+}, {
+    "name": "EvoluciondelindicedeGini",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "value": 47.7,
+            "year": 2015
+        }, {
+            "value": 47.3,
+            "year": 2013
+        }, {
+            "value": 47.6,
+            "year": 2011
+        }, {
+            "value": 49.0,
+            "year": 2009
+        }, {
+            "value": 48.2,
+            "year": 2006
+        }, {
+            "value": 51.5,
+            "year": 2003
+        }, {
+            "value": 52.8,
+            "year": 2000
+        }, {
+            "value": 55.8,
+            "year": 1998
+        }, {
+            "value": 54.9,
+            "year": 1996
+        }, {
+            "value": 56.4,
+            "year": 1994
+        }, {
+            "value": 54.8,
+            "year": 1992
+        }, {
+            "value": 57.3,
+            "year": 1990
+        }]
+    },
+    "context": "economico"
+}, {
+    "name": "PPP",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "ppp": 23960,
+            "value": 429,
+            "year": 2016
+        }, {
+            "ppp": 23579,
+            "value": 419,
+            "year": 2015
+        }, {
+            "ppp": 23082,
+            "value": 407,
+            "year": 2014
+        }, {
+            "ppp": 22578,
+            "value": 394,
+            "year": 2013
+        }, {
+            "ppp": 21620,
+            "value": 374,
+            "year": 2012
+        }, {
+            "ppp": 20437,
+            "value": 351,
+            "year": 2011
+        }, {
+            "ppp": 18356,
+            "value": 312,
+            "year": 2010
+        }, {
+            "ppp": 16267,
+            "value": 274,
+            "year": 2009
+        }, {
+            "ppp": 16422,
+            "value": 274,
+            "year": 2008
+        }, {
+            "ppp": 16862,
+            "value": 278,
+            "year": 2007
+        }, {
+            "ppp": 15611,
+            "value": 255,
+            "year": 2006
+        }, {
+            "ppp": 12744,
+            "value": 206,
+            "year": 2005
+        }, {
+            "ppp": 11777,
+            "value": 188,
+            "year": 2004
+        }, {
+            "ppp": 10771,
+            "value": 170,
+            "year": 2003
+        }, {
+            "ppp": 10297,
+            "value": 161,
+            "year": 2002
+        }, {
+            "ppp": 10001,
+            "value": 154,
+            "year": 2001
+        }, {
+            "ppp": 9608,
+            "value": 147,
+            "year": 2000
+        }]
+    },
+    "context": "economico"
+}, {
+    "name": "EvolucionPIBpercapitaChile",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "pibpc": 13792,
+            "value": 247,
+            "year": 2016
+        }, {
+            "pibpc": 13653,
+            "value": 243,
+            "year": 2015
+        }, {
+            "pibpc": 14817,
+            "value": 261,
+            "year": 2014
+        }, {
+            "pibpc": 15941,
+            "value": 278,
+            "year": 2013
+        }, {
+            "pibpc": 15431,
+            "value": 267,
+            "year": 2012
+        }, {
+            "pibpc": 14705,
+            "value": 252,
+            "year": 2011
+        }, {
+            "pibpc": 12860,
+            "value": 218,
+            "year": 2010
+        }, {
+            "pibpc": 10243,
+            "value": 173,
+            "year": 2009
+        }, {
+            "pibpc": 10781,
+            "value": 180,
+            "year": 2008
+        }, {
+            "pibpc": 10526,
+            "value": 173,
+            "year": 2007
+        }, {
+            "pibpc": 9484,
+            "value": 155,
+            "year": 2006
+        }, {
+            "pibpc": 7615,
+            "value": 123,
+            "year": 2005
+        }, {
+            "pibpc": 6210,
+            "value": 99,
+            "year": 2004
+        }, {
+            "pibpc": 4787,
+            "value": 76,
+            "year": 2003
+        }, {
+            "pibpc": 4463,
+            "value": 70,
+            "year": 2002
+        }, {
+            "pibpc": 4595,
+            "value": 71,
+            "year": 2001
+        }, {
+            "pibpc": 5101,
+            "value": 78,
+            "year": 2000
+        }]
+    },
+    "context": "economico"
+}, {
+    "name": "Exportaciondealtatecnologia",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "percentage": 6.9,
+            "value": 620,
+            "year": 2005
+        }, {
+            "percentage": 6.8,
+            "value": 551,
+            "year": 2006
+        }, {
+            "percentage": 7.4,
+            "value": 684,
+            "year": 2007
+        }, {
+            "percentage": 6.5,
+            "value": 654,
+            "year": 2008
+        }, {
+            "percentage": 5.6,
+            "value": 537,
+            "year": 2009
+        }, {
+            "percentage": 5.7,
+            "value": 540,
+            "year": 2010
+        }, {
+            "percentage": 4.9,
+            "value": 507,
+            "year": 2011
+        }, {
+            "percentage": 5.0,
+            "value": 413,
+            "year": 2012
+        }, {
+            "percentage": 6.3,
+            "value": 666,
+            "year": 2013
+        }, {
+            "percentage": 6.4,
+            "value": 622,
+            "year": 2014
+        }, {
+            "percentage": 6.1,
+            "value": 516,
+            "year": 2015
+        }, {
+            "percentage": 7.2,
+            "value": 435,
+            "year": 2016
+        }]
+    },
+    "context": "economico"
+}, {
+    "name": "PobrezaExtremaCasen2015",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "category": "Pobreza no extrema",
+            "value": 16.5,
+            "year": "2006"
+        }, {
+            "category": "Pobreza no extrema",
+            "value": 15.4,
+            "year": "2009"
+        }, {
+            "category": "Pobreza no extrema",
+            "value": 14.1,
+            "year": "2011"
+        }, {
+            "category": "Pobreza no extrema",
+            "value": 9.9,
+            "year": "2013"
+        }, {
+            "category": "Pobreza no extrema",
+            "value": 11.7,
+            "year": "2015"
+        }, {
+            "category": "pobreza extrema",
+            "value": 12.6,
+            "year": "2006"
+        }, {
+            "category": "pobreza extrema",
+            "value": 9.9,
+            "year": "2009"
+        }, {
+            "category": "pobreza extrema",
+            "value": 8.1,
+            "year": "2011"
+        }, {
+            "category": "pobreza extrema",
+            "value": 4.5,
+            "year": "2013"
+        }, {
+            "category": "pobreza extrema",
+            "value": 8.1,
+            "year": "2015"
+        }, {
+            "category": "Total de pobreza",
+            "value": 29.1,
+            "year": "2006"
+        }, {
+            "category": "Total de pobreza",
+            "value": 25.3,
+            "year": "2009"
+        }, {
+            "category": "Total de pobreza",
+            "value": 22.2,
+            "year": "2011"
+        }, {
+            "category": "Total de pobreza",
+            "value": 14.4,
+            "year": "2013"
+        }, {
+            "category": "Total de pobreza",
+            "value": 3.5,
+            "year": "2015"
+        }]
+    },
+    "context": "economico"
+}, {
+    "name": "PobrezaMultidimensionalCasen2015",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "value": 27.5,
+            "year": "2009"
+        }, {
+            "value": 24.3,
+            "year": "2011"
+        }, {
+            "value": 20.4,
+            "year": "2013"
+        }, {
+            "value": 19.1,
+            "year": "2015"
+        }, {
+            "value": 20.9,
+            "year": "2015*"
+        }]
+    },
+    "context": "economico"
+}, {
+    "name": "Consumodepolitica",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "value": 12.0,
+            "opinion": "Frecuentemente",
+            "activity": "Lee noticias sobre politica"
+        }, {
+            "value": 35.0,
+            "opinion": "A veces",
+            "activity": "Lee noticias sobre politica"
+        }, {
+            "value": 52.0,
+            "opinion": "Nunca",
+            "activity": "Lee noticias sobre politica"
+        }, {
+            "value": 11.0,
+            "opinion": "Frecuentemente",
+            "activity": "Mira programas politicos en television "
+        }, {
+            "value": 43.0,
+            "opinion": "A veces",
+            "activity": "Mira programas politicos en television "
+        }, {
+            "value": 46.0,
+            "opinion": "Nunca",
+            "activity": "Mira programas politicos en television "
+        }, {
+            "value": 10.0,
+            "opinion": "Frecuentemente",
+            "activity": "Conversa en familia sobre politica "
+        }, {
+            "value": 35.0,
+            "opinion": "A veces",
+            "activity": "Conversa en familia sobre politica "
+        }, {
+            "value": 54.0,
+            "opinion": "Nunca",
+            "activity": "Conversa en familia sobre politica "
+        }, {
+            "value": 9.0,
+            "opinion": "Frecuentemente",
+            "activity": "Conversa con amigos sobre politica "
+        }, {
+            "value": 32.0,
+            "opinion": "A veces",
+            "activity": "Conversa con amigos sobre politica "
+        }, {
+            "value": 58.0,
+            "opinion": "Nunca",
+            "activity": "Conversa con amigos sobre politica "
+        }, {
+            "value": 8.0,
+            "opinion": "Frecuentemente",
+            "activity": "Sigue temas politicos en redes sociales como Facebook o Twitter"
+        }, {
+            "value": 19.0,
+            "opinion": "A veces",
+            "activity": "Sigue temas politicos en redes sociales como Facebook o Twitter"
+        }, {
+            "value": 72.0,
+            "opinion": "Nunca",
+            "activity": "Sigue temas politicos en redes sociales como Facebook o Twitter"
+        }, {
+            "value": 1.0,
+            "opinion": "Frecuentemente",
+            "activity": "Trabaja o ha trabajado para un partido politico o candidato"
+        }, {
+            "value": 10.0,
+            "opinion": "A veces",
+            "activity": "Trabaja o ha trabajado para un partido politico o candidato"
+        }, {
+            "value": 88.0,
+            "opinion": "Nunca",
+            "activity": "Trabaja o ha trabajado para un partido politico o candidato"
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Funcionamientodelademocracia",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "category": "Muy bien + Bien",
+            "value": 26.0,
+            "date": "Sep-Oct 2010"
+        }, {
+            "category": "Muy bien + Bien",
+            "value": 16.0,
+            "date": "Nov-Dic 2011"
+        }, {
+            "category": "Muy bien + Bien",
+            "value": 15.0,
+            "date": "Jul-Ago 2013"
+        }, {
+            "category": "Muy bien + Bien",
+            "value": 10.0,
+            "date": "Nov-15"
+        }, {
+            "category": "Muy bien + Bien",
+            "value": 11.0,
+            "date": "Abr-May 2017"
+        }, {
+            "category": "Regular ",
+            "value": 56.0,
+            "date": "Sep-Oct 2010"
+        }, {
+            "category": "Regular ",
+            "value": 49.0,
+            "date": "Nov-Dic 2011"
+        }, {
+            "category": "Regular ",
+            "value": 59.0,
+            "date": "Jul-Ago 2013"
+        }, {
+            "category": "Regular ",
+            "value": 51.0,
+            "date": "Nov-15"
+        }, {
+            "category": "Regular ",
+            "value": 56.0,
+            "date": "Abr-May 2017"
+        }, {
+            "category": "Mal + Muy Mal",
+            "value": 13.0,
+            "date": "Sep-Oct 2010"
+        }, {
+            "category": "Mal + Muy Mal",
+            "value": 29.0,
+            "date": "Nov-Dic 2011"
+        }, {
+            "category": "Mal + Muy Mal",
+            "value": 17.0,
+            "date": "Jul-Ago 2013"
+        }, {
+            "category": "Mal + Muy Mal",
+            "value": 32.0,
+            "date": "Nov-15"
+        }, {
+            "category": "Mal + Muy Mal",
+            "value": 26.0,
+            "date": "Abr-May 2017"
+        }, {
+            "category": "NS/NR",
+            "value": 5.0,
+            "date": "Sep-Oct 2010"
+        }, {
+            "category": "NS/NR",
+            "value": 6.0,
+            "date": "Nov-Dic 2011"
+        }, {
+            "category": "NS/NR",
+            "value": 9.0,
+            "date": "Jul-Ago 2013"
+        }, {
+            "category": "NS/NR",
+            "value": 7.0,
+            "date": "Nov-15"
+        }, {
+            "category": "NS/NR",
+            "value": 7.0,
+            "date": "Abr-May 2017"
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Libertadesciviles",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "category": "Libertad Religiosa",
+            "value": 71.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Libertad Religiosa",
+            "value": 28.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Libertad Religiosa",
+            "value": 1.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Derecho a la vida",
+            "value": 60.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Derecho a la vida",
+            "value": 39.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Derecho a la vida",
+            "value": 1.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Libertad de expresion",
+            "value": 54.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Libertad de expresion",
+            "value": 45.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Libertad de expresion",
+            "value": 1.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Libertad de participar en politica",
+            "value": 49.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Libertad de participar en politica",
+            "value": 49.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Libertad de participar en politica",
+            "value": 2.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Acceso a la informacion publica",
+            "value": 46.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Acceso a la informacion publica",
+            "value": 52.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Acceso a la informacion publica",
+            "value": 2.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Derecho a la educacion",
+            "value": 44.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Derecho a la educacion",
+            "value": 55.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Derecho a la educacion",
+            "value": 1.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Proteccion a la propiedad privada",
+            "value": 37.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Proteccion a la propiedad privada",
+            "value": 61.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Proteccion a la propiedad privada",
+            "value": 2.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Derecho a la salud",
+            "value": 33.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Derecho a la salud",
+            "value": 66.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Derecho a la salud",
+            "value": 1.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Proteccion al medio ambiente",
+            "value": 29.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Proteccion al medio ambiente",
+            "value": 69.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Proteccion al medio ambiente",
+            "value": 2.0,
+            "opinion": "NS/NR"
+        }, {
+            "category": "Igualdad ante la ley",
+            "value": 23.0,
+            "opinion": "Mucho + Bastante"
+        }, {
+            "category": "Igualdad ante la ley",
+            "value": 76.0,
+            "opinion": "Poco + Nada"
+        }, {
+            "category": "Igualdad ante la ley",
+            "value": 1.0,
+            "opinion": "NS/NR"
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Votanteselecciones20171eravuelta",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "category": "Votos válidamente emitidos",
+            "value": 0.46
+        }, {
+            "category": "Votos nulos",
+            "value": 0.005
+        }, {
+            "category": "Votos en blanco",
+            "value": 0.003
+        }, {
+            "category": "Total de abstención",
+            "value": 0.533
+        }, {
+            "total": 14347288
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Votanteselecciones20172davuelta",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "category": "Votos válidamente emitidos",
+            "value": 0.485
+        }, {
+            "category": "Votos nulos",
+            "value": 0.004
+        }, {
+            "category": "Votos en blanco",
+            "value": 0.001
+        }, {
+            "category": "Total de abstención",
+            "value": 0.51
+        }, {
+            "total": 14347288
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Corrupcionorgpubli2",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "category": "Poco corruptos (1 a 4)",
+            "value": 21.0,
+            "year": "2012"
+        }, {
+            "category": "Poco corruptos (1 a 4)",
+            "value": 15.0,
+            "year": "2015"
+        }, {
+            "category": "Poco corruptos (1 a 4)",
+            "value": 15.0,
+            "year": "2017"
+        }, {
+            "category": "Neutra (5 y 6)",
+            "value": 28.0,
+            "year": "2012"
+        }, {
+            "category": "Neutra (5 y 6)",
+            "value": 28.0,
+            "year": "2015"
+        }, {
+            "category": "Neutra (5 y 6)",
+            "value": 22.0,
+            "year": "2017"
+        }, {
+            "category": "Muy Corruptos (7 a 10)",
+            "value": 51.0,
+            "year": "2012"
+        }, {
+            "category": "Muy Corruptos (7 a 10)",
+            "value": 57.0,
+            "year": "2015"
+        }, {
+            "category": "Muy Corruptos (7 a 10)",
+            "value": 63.0,
+            "year": "2017"
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Transparenciaensectorpublico",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "category": "Organismos Públicos",
+            "value": 20.0,
+            "year": "2011"
+        }, {
+            "category": "Organismos Públicos",
+            "value": 29.0,
+            "year": "2012"
+        }, {
+            "category": "Organismos Públicos",
+            "value": 23.0,
+            "year": "2013"
+        }, {
+            "category": "Organismos Públicos",
+            "value": 21.0,
+            "year": "2014"
+        }, {
+            "category": "Organismos Públicos",
+            "value": 17.0,
+            "year": "2015"
+        }, {
+            "category": "Organismos Públicos",
+            "value": 17.0,
+            "year": "2016"
+        }, {
+            "category": "Funcionarios Públicos",
+            "value": 0.0,
+            "year": "2011"
+        }, {
+            "category": "Funcionarios Públicos",
+            "value": 0.0,
+            "year": "2012"
+        }, {
+            "category": "Funcionarios Públicos",
+            "value": 25.0,
+            "year": "2013"
+        }, {
+            "category": "Funcionarios Públicos",
+            "value": 22.0,
+            "year": "2014"
+        }, {
+            "category": "Funcionarios Públicos",
+            "value": 19.0,
+            "year": "2015"
+        }, {
+            "category": "Funcionarios Públicos",
+            "value": 18.0,
+            "year": "2016"
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Participacionenactcomunitarias",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "answer": "% Pertenece y participa activamente ",
+            "value": 10.0,
+            "activity": "Grupo deportivo, recreativo o cultural"
+        }, {
+            "answer": "% Pertenece pero no participa activamente ",
+            "value": 7.0,
+            "activity": "Grupo deportivo, recreativo o cultural"
+        }, {
+            "answer": "% Antes pertenecía pero ya no",
+            "value": 16.0,
+            "activity": "Grupo deportivo, recreativo o cultural"
+        }, {
+            "answer": "% Nunca he pertenecido ",
+            "value": 66.0,
+            "activity": "Grupo deportivo, recreativo o cultural"
+        }, {
+            "answer": "NS/NR",
+            "value": 1.0,
+            "activity": "Grupo deportivo, recreativo o cultural"
+        }, {
+            "answer": "% Pertenece y participa activamente ",
+            "value": 8.0,
+            "activity": "Grupo u organización religiosa"
+        }, {
+            "answer": "% Pertenece pero no participa activamente ",
+            "value": 5.0,
+            "activity": "Grupo u organización religiosa"
+        }, {
+            "answer": "% Antes pertenecía pero ya no",
+            "value": 13.0,
+            "activity": "Grupo u organización religiosa"
+        }, {
+            "answer": "% Nunca he pertenecido ",
+            "value": 73.0,
+            "activity": "Grupo u organización religiosa"
+        }, {
+            "answer": "NS/NR",
+            "value": 1.0,
+            "activity": "Grupo u organización religiosa"
+        }, {
+            "answer": "% Pertenece y participa activamente ",
+            "value": 4.0,
+            "activity": "Una Asociación voluntaria y/o de ayuda social"
+        }, {
+            "answer": "% Pertenece pero no participa activamente ",
+            "value": 3.0,
+            "activity": "Una Asociación voluntaria y/o de ayuda social"
+        }, {
+            "answer": "% Antes pertenecía pero ya no",
+            "value": 11.0,
+            "activity": "Una Asociación voluntaria y/o de ayuda social"
+        }, {
+            "answer": "% Nunca he pertenecido ",
+            "value": 81.0,
+            "activity": "Una Asociación voluntaria y/o de ayuda social"
+        }, {
+            "answer": "NS/NR",
+            "value": 1.0,
+            "activity": "Una Asociación voluntaria y/o de ayuda social"
+        }, {
+            "answer": "% Pertenece y participa activamente ",
+            "value": 4.0,
+            "activity": "Sindicato"
+        }, {
+            "answer": "% Pertenece pero no participa activamente ",
+            "value": 4.0,
+            "activity": "Sindicato"
+        }, {
+            "answer": "% Antes pertenecía pero ya no",
+            "value": 12.0,
+            "activity": "Sindicato"
+        }, {
+            "answer": "% Nunca he pertenecido ",
+            "value": 79.0,
+            "activity": "Sindicato"
+        }, {
+            "answer": "NS/NR",
+            "value": 1.0,
+            "activity": "Sindicato"
+        }, {
+            "answer": "% Pertenece y participa activamente ",
+            "value": 1.0,
+            "activity": "Asociación Gremial/Profesional"
+        }, {
+            "answer": "% Pertenece pero no participa activamente ",
+            "value": 3.0,
+            "activity": "Asociación Gremial/Profesional"
+        }, {
+            "answer": "% Antes pertenecía pero ya no",
+            "value": 5.0,
+            "activity": "Asociación Gremial/Profesional"
+        }, {
+            "answer": "% Nunca he pertenecido ",
+            "value": 90.0,
+            "activity": "Asociación Gremial/Profesional"
+        }, {
+            "answer": "NS/NR",
+            "value": 1.0,
+            "activity": "Asociación Gremial/Profesional"
+        }, {
+            "answer": "% Pertenece y participa activamente ",
+            "value": 1.0,
+            "activity": "Partido Político"
+        }, {
+            "answer": "% Pertenece pero no participa activamente ",
+            "value": 1.0,
+            "activity": "Partido Político"
+        }, {
+            "answer": "% Antes pertenecía pero ya no",
+            "value": 4.0,
+            "activity": "Partido Político"
+        }, {
+            "answer": "% Nunca he pertenecido ",
+            "value": 93.0,
+            "activity": "Partido Político"
+        }, {
+            "answer": "NS/NR",
+            "value": 1.0,
+            "activity": "Partido Político"
+        }]
+    },
+    "context": "politico-institucional"
+}, {
+    "name": "Percepciondeconflictos",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "conflict": "Mapuche y Estado chileno",
+            "year": "2007",
+            "value": 66.0
+        }, {
+            "conflict": "Mapuche y Estado chileno",
+            "year": "2009",
+            "value": 70.0
+        }, {
+            "conflict": "Mapuche y Estado chileno",
+            "year": "2011",
+            "value": 78.0
+        }, {
+            "conflict": "Mapuche y Estado chileno",
+            "year": "2013",
+            "value": 84.0
+        }, {
+            "conflict": "Mapuche y Estado chileno",
+            "year": "2015",
+            "value": 77.0
+        }, {
+            "conflict": "Mapuche y Estado chileno",
+            "year": "2017",
+            "value": 82.0
+        }, {
+            "conflict": "Gobierno y Oposición",
+            "year": "2007",
+            "value": 69.0
+        }, {
+            "conflict": "Gobierno y Oposición",
+            "year": "2009",
+            "value": 67.0
+        }, {
+            "conflict": "Gobierno y Oposición",
+            "year": "2011",
+            "value": 77.0
+        }, {
+            "conflict": "Gobierno y Oposición",
+            "year": "2013",
+            "value": 75.0
+        }, {
+            "conflict": "Gobierno y Oposición",
+            "year": "2015",
+            "value": 71.0
+        }, {
+            "conflict": "Gobierno y Oposición",
+            "year": "2017",
+            "value": 66.0
+        }, {
+            "conflict": "Trabajadores y Empresarios",
+            "year": "2007",
+            "value": 68.0
+        }, {
+            "conflict": "Trabajadores y Empresarios",
+            "year": "2009",
+            "value": 63.0
+        }, {
+            "conflict": "Trabajadores y Empresarios",
+            "year": "2011",
+            "value": 63.0
+        }, {
+            "conflict": "Trabajadores y Empresarios",
+            "year": "2013",
+            "value": 65.0
+        }, {
+            "conflict": "Trabajadores y Empresarios",
+            "year": "2015",
+            "value": 61.0
+        }, {
+            "conflict": "Trabajadores y Empresarios",
+            "year": "2017",
+            "value": 52.0
+        }, {
+            "conflict": "Ricos y Pobres",
+            "year": "2007",
+            "value": 60.0
+        }, {
+            "conflict": "Ricos y Pobres",
+            "year": "2009",
+            "value": 60.0
+        }, {
+            "conflict": "Ricos y Pobres",
+            "year": "2011",
+            "value": 55.0
+        }, {
+            "conflict": "Ricos y Pobres",
+            "year": "2013",
+            "value": 65.0
+        }, {
+            "conflict": "Ricos y Pobres",
+            "year": "2015",
+            "value": 59.0
+        }, {
+            "conflict": "Ricos y Pobres",
+            "year": "2017",
+            "value": 51.0
+        }, {
+            "conflict": "Santiago y Regiones",
+            "year": "2007",
+            "value": 36.0
+        }, {
+            "conflict": "Santiago y Regiones",
+            "year": "2009",
+            "value": 0.0
+        }, {
+            "conflict": "Santiago y Regiones",
+            "year": "2011",
+            "value": 0.0
+        }, {
+            "conflict": "Santiago y Regiones",
+            "year": "2013",
+            "value": 45.0
+        }, {
+            "conflict": "Santiago y Regiones",
+            "year": "2015",
+            "value": 0.0
+        }, {
+            "conflict": "Santiago y Regiones",
+            "year": "2017",
+            "value": 38.0
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Resoluciondeconflictos",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "conflict": "Problema de la calidad de la educación",
+            "year": "2007",
+            "value": 57.0
+        }, {
+            "conflict": "Problema de la calidad de la educación",
+            "year": "2009",
+            "value": 62.0
+        }, {
+            "conflict": "Problema de la calidad de la educación",
+            "year": "2011",
+            "value": 47.0
+        }, {
+            "conflict": "Problema de la calidad de la educación",
+            "year": "2013",
+            "value": 46.0
+        }, {
+            "conflict": "Problema de la calidad de la educación",
+            "year": "2015",
+            "value": 40.0
+        }, {
+            "conflict": "Problema de la calidad de la educación",
+            "year": "2017",
+            "value": 44.0
+        }, {
+            "conflict": "Ser un país reconciliado",
+            "year": "2007",
+            "value": 41.0
+        }, {
+            "conflict": "Ser un país reconciliado",
+            "year": "2009",
+            "value": 47.0
+        }, {
+            "conflict": "Ser un país reconciliado",
+            "year": "2011",
+            "value": 33.0
+        }, {
+            "conflict": "Ser un país reconciliado",
+            "year": "2013",
+            "value": 29.0
+        }, {
+            "conflict": "Ser un país reconciliado",
+            "year": "2015",
+            "value": 31.0
+        }, {
+            "conflict": "Ser un país reconciliado",
+            "year": "2017",
+            "value": 33.0
+        }, {
+            "conflict": "Detener el daño al medioambiente ",
+            "year": "2007",
+            "value": 32.0
+        }, {
+            "conflict": "Detener el daño al medioambiente ",
+            "year": "2009",
+            "value": 33.0
+        }, {
+            "conflict": "Detener el daño al medioambiente ",
+            "year": "2011",
+            "value": 29.0
+        }, {
+            "conflict": "Detener el daño al medioambiente ",
+            "year": "2013",
+            "value": 30.0
+        }, {
+            "conflict": "Detener el daño al medioambiente ",
+            "year": "2015",
+            "value": 27.0
+        }, {
+            "conflict": "Detener el daño al medioambiente ",
+            "year": "2017",
+            "value": 29.0
+        }, {
+            "conflict": "Ser un país desarrollado",
+            "year": "2007",
+            "value": 55.0
+        }, {
+            "conflict": "Ser un país desarrollado",
+            "year": "2009",
+            "value": 71.0
+        }, {
+            "conflict": "Ser un país desarrollado",
+            "year": "2011",
+            "value": 55.0
+        }, {
+            "conflict": "Ser un país desarrollado",
+            "year": "2013",
+            "value": 50.0
+        }, {
+            "conflict": "Ser un país desarrollado",
+            "year": "2015",
+            "value": 47.0
+        }, {
+            "conflict": "Ser un país desarrollado",
+            "year": "2017",
+            "value": 47.0
+        }, {
+            "conflict": "Eliminar la pobreza",
+            "year": "2007",
+            "value": 42.0
+        }, {
+            "conflict": "Eliminar la pobreza",
+            "year": "2009",
+            "value": 50.0
+        }, {
+            "conflict": "Eliminar la pobreza",
+            "year": "2011",
+            "value": 35.0
+        }, {
+            "conflict": "Eliminar la pobreza",
+            "year": "2013",
+            "value": 38.0
+        }, {
+            "conflict": "Eliminar la pobreza",
+            "year": "2015",
+            "value": 29.0
+        }, {
+            "conflict": "Eliminar la pobreza",
+            "year": "2017",
+            "value": 34.0
+        }, {
+            "conflict": "Reducir la desigualdad de los ingresos",
+            "year": "2007",
+            "value": 35.0
+        }, {
+            "conflict": "Reducir la desigualdad de los ingresos",
+            "year": "2009",
+            "value": 41.0
+        }, {
+            "conflict": "Reducir la desigualdad de los ingresos",
+            "year": "2011",
+            "value": 28.0
+        }, {
+            "conflict": "Reducir la desigualdad de los ingresos",
+            "year": "2013",
+            "value": 27.0
+        }, {
+            "conflict": "Reducir la desigualdad de los ingresos",
+            "year": "2015",
+            "value": 24.0
+        }, {
+            "conflict": "Reducir la desigualdad de los ingresos",
+            "year": "2017",
+            "value": 28.0
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Respetoytolerancia",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "phrase": "En general, los niveles de tolerancia y respeto son muy bajos ",
+            "value": 11.0,
+            "opinion": "En desacuerdo + Muy en desacuerdo "
+        }, {
+            "phrase": "En general, los niveles de tolerancia y respeto son muy bajos ",
+            "value": 18.0,
+            "opinion": "Ni de acuerdo ni en desacuerdo"
+        }, {
+            "phrase": "En general, los niveles de tolerancia y respeto son muy bajos ",
+            "value": 69.0,
+            "opinion": "De acuerdo + Muy de acuerdo "
+        }, {
+            "phrase": "En general, los niveles de tolerancia y respeto son muy bajos ",
+            "value": 2.0,
+            "opinion": "NS/NC"
+        }, {
+            "phrase": "A fin de cuentas, la sociedad chilena está unida y sus conflictos son acotados",
+            "value": 46.0,
+            "opinion": "En desacuerdo + Muy en desacuerdo "
+        }, {
+            "phrase": "A fin de cuentas, la sociedad chilena está unida y sus conflictos son acotados",
+            "value": 29.0,
+            "opinion": "Ni de acuerdo ni en desacuerdo"
+        }, {
+            "phrase": "A fin de cuentas, la sociedad chilena está unida y sus conflictos son acotados",
+            "value": 22.0,
+            "opinion": "De acuerdo + Muy de acuerdo "
+        }, {
+            "phrase": "A fin de cuentas, la sociedad chilena está unida y sus conflictos son acotados",
+            "value": 4.0,
+            "opinion": "NS/NC"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Satisfaccionconlavida",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "opinion": "Totalmente insatisfecho ",
+            "value": 8.0,
+            "date": "Agosto 2015"
+        }, {
+            "opinion": "Totalmente insatisfecho ",
+            "value": 9.0,
+            "date": "Noviembre 2015"
+        }, {
+            "opinion": "Totalmente insatisfecho ",
+            "value": 12.0,
+            "date": "Jul-ago 2016"
+        }, {
+            "opinion": "Totalmente insatisfecho ",
+            "value": 7.0,
+            "date": "nov-dic 2016"
+        }, {
+            "opinion": "Totalmente insatisfecho ",
+            "value": 8.0,
+            "date": "abr-may 2017"
+        }, {
+            "opinion": "Ni Satisfecho/Ni Insatisfecho",
+            "value": 23.0,
+            "date": "Agosto 2015"
+        }, {
+            "opinion": "Ni Satisfecho/Ni Insatisfecho",
+            "value": 28.0,
+            "date": "Noviembre 2015"
+        }, {
+            "opinion": "Ni Satisfecho/Ni Insatisfecho",
+            "value": 29.0,
+            "date": "Jul-ago 2016"
+        }, {
+            "opinion": "Ni Satisfecho/Ni Insatisfecho",
+            "value": 27.0,
+            "date": "nov-dic 2016"
+        }, {
+            "opinion": "Ni Satisfecho/Ni Insatisfecho",
+            "value": 24.0,
+            "date": "abr-may 2017"
+        }, {
+            "opinion": "Totalmente Satisfecho ",
+            "value": 69.0,
+            "date": "Agosto 2015"
+        }, {
+            "opinion": "Totalmente Satisfecho ",
+            "value": 62.0,
+            "date": "Noviembre 2015"
+        }, {
+            "opinion": "Totalmente Satisfecho ",
+            "value": 59.0,
+            "date": "Jul-ago 2016"
+        }, {
+            "opinion": "Totalmente Satisfecho ",
+            "value": 65.0,
+            "date": "nov-dic 2016"
+        }, {
+            "opinion": "Totalmente Satisfecho ",
+            "value": 68.0,
+            "date": "abr-may 2017"
+        }, {
+            "opinion": "NS/NC",
+            "value": 1.0,
+            "date": "Agosto 2015"
+        }, {
+            "opinion": "NS/NC",
+            "value": 0.0,
+            "date": "Noviembre 2015"
+        }, {
+            "opinion": "NS/NC",
+            "value": 1.0,
+            "date": "Jul-ago 2016"
+        }, {
+            "opinion": "NS/NC",
+            "value": 0.0,
+            "date": "nov-dic 2016"
+        }, {
+            "opinion": "NS/NC",
+            "value": 1.0,
+            "date": "abr-may 2017"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Satisfaccionpropiavsotros",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "answer": "Totalmente insatisfecho",
+            "value": 8.0,
+            "opinion": "Satisfacción personal con la vida"
+        }, {
+            "answer": "Ni Satisfecho/Ni Insatisfecho",
+            "value": 24.0,
+            "opinion": "Satisfacción personal con la vida"
+        }, {
+            "answer": "Totalmente Satisfecho ",
+            "value": 68.0,
+            "opinion": "Satisfacción personal con la vida"
+        }, {
+            "answer": "NS/NC",
+            "value": 1.0,
+            "opinion": "Satisfacción personal con la vida"
+        }, {
+            "answer": "Totalmente insatisfecho",
+            "value": 21.0,
+            "opinion": "Satisfacción del resto de los chilenos "
+        }, {
+            "answer": "Ni Satisfecho/Ni Insatisfecho",
+            "value": 54.0,
+            "opinion": "Satisfacción del resto de los chilenos "
+        }, {
+            "answer": "Totalmente Satisfecho ",
+            "value": 21.0,
+            "opinion": "Satisfacción del resto de los chilenos "
+        }, {
+            "answer": "NS/NC",
+            "value": 4.0,
+            "opinion": "Satisfacción del resto de los chilenos "
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Confianzaenlasinstituciones2",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "institution": "Fuerzas Armadas",
+            "value": 51.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Fuerzas Armadas",
+            "value": 50.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Fuerzas Armadas",
+            "value": 46.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Fuerzas Armadas",
+            "value": 40.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "PDI",
+            "value": 49.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "PDI",
+            "value": 51.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "PDI",
+            "value": 47.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "PDI",
+            "value": 37.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Carabineros",
+            "value": 56.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Carabineros",
+            "value": 57.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Carabineros",
+            "value": 54.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Carabineros",
+            "value": 37.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Radio",
+            "value": 47.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Radio",
+            "value": 48.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Radio",
+            "value": 40.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Radio",
+            "value": 37.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Iglesia Católica",
+            "value": 30.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Iglesia Católica",
+            "value": 29.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Iglesia Católica",
+            "value": 30.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Iglesia Católica",
+            "value": 31.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Iglesias Evangélicas",
+            "value": 25.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Iglesias Evangélicas",
+            "value": 27.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Iglesias Evangélicas",
+            "value": 27.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Iglesias Evangélicas",
+            "value": 25.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Movimiento Estudiantil 26%",
+            "value": 21.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Movimiento Estudiantil 26%",
+            "value": 21.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Movimiento Estudiantil 26%",
+            "value": 24.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Diarios",
+            "value": 26.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Diarios",
+            "value": 25.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Diarios",
+            "value": 19.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Diarios",
+            "value": 21.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Municipalidades",
+            "value": 30.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Municipalidades",
+            "value": 24.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Municipalidades",
+            "value": 24.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Municipalidades",
+            "value": 20.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Televisión",
+            "value": 26.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Televisión",
+            "value": 24.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Televisión",
+            "value": 19.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Televisión",
+            "value": 20.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Sindicatos",
+            "value": 21.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Sindicatos",
+            "value": 19.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Sindicatos",
+            "value": 15.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Sindicatos",
+            "value": 19.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Empresas Públicas",
+            "value": 0.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Empresas Públicas",
+            "value": 18.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Empresas Públicas",
+            "value": 18.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Empresas Públicas",
+            "value": 16.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Ministerio Público",
+            "value": 14.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Ministerio Público",
+            "value": 11.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Ministerio Público",
+            "value": 12.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Ministerio Público",
+            "value": 14.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Empresas Privadas",
+            "value": 12.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Empresas Privadas",
+            "value": 12.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Empresas Privadas",
+            "value": 15.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Empresas Privadas",
+            "value": 13.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Tribunales de Justicia",
+            "value": 10.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Tribunales de Justicia",
+            "value": 7.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Tribunales de Justicia",
+            "value": 7.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Tribunales de Justicia",
+            "value": 12.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Gobierno",
+            "value": 32.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Gobierno",
+            "value": 15.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Gobierno",
+            "value": 10.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Gobierno",
+            "value": 11.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Congreso",
+            "value": 12.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Congreso",
+            "value": 6.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Congreso",
+            "value": 4.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Congreso",
+            "value": 6.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Partidos Políticos",
+            "value": 6.0,
+            "date": "Julio 2014"
+        }, {
+            "institution": "Partidos Políticos",
+            "value": 3.0,
+            "date": "Agosto 2015"
+        }, {
+            "institution": "Partidos Políticos",
+            "value": 4.0,
+            "date": "Nov-Dic 2016"
+        }, {
+            "institution": "Partidos Políticos",
+            "value": 6.0,
+            "date": "Abr-May 2017"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Percepciondecorrupcioneninstituciones",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "institution": "PDI",
+            "value": 35.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "PDI",
+            "value": 33.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "PDI",
+            "value": 35.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Las Fuerzas Armadas",
+            "value": 20.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "Las Fuerzas Armadas",
+            "value": 24.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "Las Fuerzas Armadas",
+            "value": 38.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "El Ministerio Público (los fiscales)",
+            "value": 0.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "El Ministerio Público (los fiscales)",
+            "value": 0.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "El Ministerio Público (los fiscales)",
+            "value": 45.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Las Municipalidades",
+            "value": 30.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "Las Municipalidades",
+            "value": 43.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "Las Municipalidades",
+            "value": 45.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Carabineros",
+            "value": 26.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "Carabineros",
+            "value": 33.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "Carabineros",
+            "value": 46.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Los Ministerios",
+            "value": 21.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "Los Ministerios",
+            "value": 37.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "Los Ministerios",
+            "value": 47.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Las Empresas Públicas",
+            "value": 24.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "Las Empresas Públicas",
+            "value": 41.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "Las Empresas Públicas",
+            "value": 48.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Los Tribunales de Justicia",
+            "value": 33.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "Los Tribunales de Justicia",
+            "value": 48.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "Los Tribunales de Justicia",
+            "value": 51.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "El Gobierno",
+            "value": 0.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "El Gobierno",
+            "value": 0.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "El Gobierno",
+            "value": 60.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "El Congreso",
+            "value": 25.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "El Congreso",
+            "value": 44.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "El Congreso",
+            "value": 60.0,
+            "date": "Abr-May 2017"
+        }, {
+            "institution": "Los Partidos Políticos",
+            "value": 40.0,
+            "date": "Diciembre 2002"
+        }, {
+            "institution": "Los Partidos Políticos",
+            "value": 59.0,
+            "date": "Diciembre 2006"
+        }, {
+            "institution": "Los Partidos Políticos",
+            "value": 68.0,
+            "date": "Abr-May 2017"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Confianzaenlosdemas2",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 15.0,
+            "opinion": "En desacuerdo+ Muy en desacuerdo"
+        }, {
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 17.0,
+            "opinion": "Ni de acuerdo ni en desacuerdo "
+        }, {
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 66.0,
+            "opinion": "De acuerdo + muy en desacuerdo "
+        }, {
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 2.0,
+            "opinion": "NS/NC"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Confianzaenlosdemasfrase",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 15.0,
+            "opinion": "En desacuerdo+ Muy en desacuerdo"
+        }, {
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 17.0,
+            "opinion": "Ni de acuerdo ni en desacuerdo "
+        }, {
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 66.0,
+            "opinion": "De acuerdo + muy en desacuerdo "
+        }, {
+            "question": "Hoy en día, uno no sabe en quién confiar ",
+            "value": 2.0,
+            "opinion": "NS/NC"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "ConfianzaenlosdemasPregunta 1",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "question": "¿Diría que se puede confiar en la mayoría de las personas o hay que tener cuidado con ellas?",
+            "value": 22.1,
+            "opinion": "Se puede confiar"
+        }, {
+            "question": "¿Diría que se puede confiar en la mayoría de las personas o hay que tener cuidado con ellas?",
+            "value": 77.9,
+            "opinion": "Hay que tener cuidado "
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "ConfianzaenlosdemasPregunta 2",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "question": "Las personas tratar de ayudar a los demás o se preocupan solo de sí mismas?",
+            "value": 27.0,
+            "opinion": "Tratan de ayudar"
+        }, {
+            "question": "Las personas tratar de ayudar a los demás o se preocupan solo de sí mismas?",
+            "value": 73.0,
+            "opinion": "Sólo de sí mismas"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "ConfianzaenlosdemasPregunta 3",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "question": "¿La mayoría de las personas tratarían de aprovecharse de usted si tienen la oportunidad o tratarían de ser justas?",
+            "value": 34.8,
+            "opinion": "Tratan de ser justas"
+        }, {
+            "question": "¿La mayoría de las personas tratarían de aprovecharse de usted si tienen la oportunidad o tratarían de ser justas?",
+            "value": 65.2,
+            "opinion": "Tratarían de aprovecharse"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Evoluciondelaconfianzasocial",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "perception": "La mayoría de las personas pueden ser de confianza",
+            "value": 22.0,
+            "date": "1989-1993"
+        }, {
+            "perception": "La mayoría de las personas pueden ser de confianza",
+            "value": 21.0,
+            "date": "1994-1998"
+        }, {
+            "perception": "La mayoría de las personas pueden ser de confianza",
+            "value": 22.0,
+            "date": "1999-2004"
+        }, {
+            "perception": "La mayoría de las personas pueden ser de confianza",
+            "value": 12.0,
+            "date": "2005-2009"
+        }, {
+            "perception": "La mayoría de las personas pueden ser de confianza",
+            "value": 12.0,
+            "date": "2010-2014"
+        }, {
+            "perception": "Hay que tener mucho cuidado al tratar con las personas ",
+            "value": 75.0,
+            "date": "1989-1993"
+        }, {
+            "perception": "Hay que tener mucho cuidado al tratar con las personas ",
+            "value": 76.0,
+            "date": "1994-1998"
+        }, {
+            "perception": "Hay que tener mucho cuidado al tratar con las personas ",
+            "value": 75.0,
+            "date": "1999-2004"
+        }, {
+            "perception": "Hay que tener mucho cuidado al tratar con las personas ",
+            "value": 86.0,
+            "date": "2005-2009"
+        }, {
+            "perception": "Hay que tener mucho cuidado al tratar con las personas ",
+            "value": 85.0,
+            "date": "2010-2014"
+        }, {
+            "perception": "No responde",
+            "value": 0.0,
+            "date": "1989-1993"
+        }, {
+            "perception": "No responde",
+            "value": 0.0,
+            "date": "1994-1998"
+        }, {
+            "perception": "No responde",
+            "value": 0.0,
+            "date": "1999-2004"
+        }, {
+            "perception": "No responde",
+            "value": 1.0,
+            "date": "2005-2009"
+        }, {
+            "perception": "No responde",
+            "value": 2.0,
+            "date": "2010-2014"
+        }, {
+            "perception": "No sabe ",
+            "value": 3.0,
+            "date": "1989-1993"
+        }, {
+            "perception": "No sabe ",
+            "value": 2.0,
+            "date": "1994-1998"
+        }, {
+            "perception": "No sabe ",
+            "value": 3.0,
+            "date": "1999-2004"
+        }, {
+            "perception": "No sabe ",
+            "value": 1.0,
+            "date": "2005-2009"
+        }, {
+            "perception": "No sabe ",
+            "value": 1.0,
+            "date": "2010-2014"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Evoluciondelaconfianzasocial2",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "perception": "Se puede confiar en la mayoría de las personas",
+            "value": 12.0,
+            "date": "2014"
+        }, {
+            "perception": "Se puede confiar en la mayoría de las personas",
+            "value": 11.0,
+            "date": "2015"
+        }, {
+            "perception": "Se puede confiar en la mayoría de las personas",
+            "value": 9.0,
+            "date": "2016"
+        }, {
+            "perception": "No se puede confiar en la mayoría de las personas",
+            "value": 83.0,
+            "date": "2014"
+        }, {
+            "perception": "No se puede confiar en la mayoría de las personas",
+            "value": 88.0,
+            "date": "2015"
+        }, {
+            "perception": "No se puede confiar en la mayoría de las personas",
+            "value": 99.0,
+            "date": "2016"
+        }, {
+            "perception": "No sabe/No responde",
+            "value": 5.0,
+            "date": "2014"
+        }, {
+            "perception": "No sabe/No responde",
+            "value": 1.0,
+            "date": "2015"
+        }, {
+            "perception": "No sabe/No responde",
+            "value": 1.0,
+            "date": "2016"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "IDH",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "idh": "0.847",
+            "ranking": "38",
+            "country": "Chile"
+        }, {
+            "idh": "0.827",
+            "ranking": "45",
+            "country": "Argentina"
+        }, {
+            "idh": "0.795",
+            "ranking": "54",
+            "country": "Uruguay"
+        }, {
+            "idh": "0.788",
+            "ranking": "60",
+            "country": "Panamá"
+        }, {
+            "idh": "0.776",
+            "ranking": "66",
+            "country": "Costa Rica"
+        }, {
+            "idh": "0.775",
+            "ranking": "68",
+            "country": "Cuba"
+        }, {
+            "idh": "0.767",
+            "ranking": "71",
+            "country": "Venezuela"
+        }, {
+            "idh": "0.762",
+            "ranking": "77",
+            "country": "México"
+        }, {
+            "idh": "0.754",
+            "ranking": "79",
+            "country": "Brasil"
+        }, {
+            "idh": "0.74",
+            "ranking": "87",
+            "country": "Perú"
+        }, {
+            "idh": "0.739",
+            "ranking": "89",
+            "country": "Ecuador"
+        }, {
+            "idh": "0.727",
+            "ranking": "95",
+            "country": "Colombia"
+        }, {
+            "idh": "0.722",
+            "ranking": "99",
+            "country": "República Dominicana"
+        }, {
+            "idh": "0.693",
+            "ranking": "110",
+            "country": "Paraguay"
+        }, {
+            "idh": "0.68",
+            "ranking": "117",
+            "country": "El Salvador"
+        }, {
+            "idh": "0.674",
+            "ranking": "118",
+            "country": "Bolivia"
+        }, {
+            "idh": "0.645",
+            "ranking": "124",
+            "country": "Nicaragua"
+        }, {
+            "idh": "0.64",
+            "ranking": "125",
+            "country": "Guatemala"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Evolucion",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "score": "0.645",
+            "category": "Global Gender Gap Score ",
+            "year": 2006,
+            "ranking": "78"
+        }, {
+            "score": "0.704",
+            "category": "Global Gender Gap Score ",
+            "year": 2007,
+            "ranking": "63"
+        }, {
+            "score": "0.514",
+            "category": "* Economic participation and opportunity",
+            "year": 2006,
+            "ranking": "90"
+        }, {
+            "score": "0.573",
+            "category": "* Economic participation and opportunity",
+            "year": 2007,
+            "ranking": "117"
+        }, {
+            "score": "0.980",
+            "category": "** Educational attainment",
+            "year": 2006,
+            "ranking": "69"
+        }, {
+            "score": "0.999",
+            "category": "** Educational attainment",
+            "year": 2007,
+            "ranking": "39"
+        }, {
+            "score": "0.980",
+            "category": "*** Health and survival",
+            "year": 2006,
+            "ranking": "1"
+        }, {
+            "score": "0.978",
+            "category": "*** Health and survival",
+            "year": 2007,
+            "ranking": "47"
+        }, {
+            "score": "0.109",
+            "category": "**** Political empowerment",
+            "year": 2006,
+            "ranking": "56"
+        }, {
+            "score": "0.266",
+            "category": "**** Political empowerment",
+            "year": 2007,
+            "ranking": "36"
+        }]
+    },
+    "context": "socio-cultural"
+}, {
+    "name": "Ranking",
+    "data": {
+        "metadata": "",
+        "data": [{
+            "ranking": "6",
+            "country": "Nicaragua"
+        }, {
+            "ranking": "17",
+            "country": "Bolivia "
+        }, {
+            "ranking": "23",
+            "country": "Barbados"
+        }, {
+            "ranking": "25",
+            "country": "Cuba "
+        }, {
+            "ranking": "27",
+            "country": "Bahamas "
+        }, {
+            "ranking": "34",
+            "country": "Argentina "
+        }, {
+            "ranking": "36",
+            "country": "Colombia "
+        }, {
+            "ranking": "41",
+            "country": "Costa Rica "
+        }, {
+            "ranking": "42",
+            "country": "Ecuador"
+        }, {
+            "ranking": "43",
+            "country": "Panamá"
+        }, {
+            "ranking": "48",
+            "country": "Perú "
+        }, {
+            "ranking": "51",
+            "country": "Jamaica "
+        }, {
+            "ranking": "55",
+            "country": "Honduras "
+        }, {
+            "ranking": "56",
+            "country": "Uruguay"
+        }, {
+            "ranking": "60",
+            "country": "Venezuela "
+        }, {
+            "ranking": "62",
+            "country": "El Salvador"
+        }, {
+            "ranking": "63",
+            "country": "Chile"
+        }, {
+            "ranking": "70",
+            "country": "República Dominicana "
+        }, {
+            "ranking": "81",
+            "country": "México "
+        }, {
+            "ranking": "90",
+            "country": "Brasil"
+        }, {
+            "ranking": "96",
+            "country": "Paraguay"
+        }]
+    },
+    "context": "socio-cultural"
+}]
