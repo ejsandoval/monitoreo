@@ -1,25 +1,19 @@
-1. Nivel de desarrollo humano de Chile con respecto a América Latina (escala de 0 a 1),,
-,,
-País,IDH ,Ranking
-Chile ,0.847,38
+País,IDH,Ranking
+Chile,0.847,38
 Argentina,0.827,45
-Uruguay ,0.795,54
-Panamá ,0.788,60
+Uruguay,0.795,54
+Panamá,0.788,60
 Costa Rica,0.776,66
-Cuba ,0.775,68
-Venezuela ,0.767,71
-México ,0.762,77
+Cuba,0.775,68
+Venezuela,0.767,71
+México,0.762,77
 Brasil,0.754,79
-Perú ,0.74,87
-Ecuador ,0.739,89
-Colombia ,0.727,95
-República Dominicana ,0.722,99
+Perú,0.74,87
+Ecuador,0.739,89
+Colombia,0.727,95
+República Dominicana,0.722,99
 Paraguay,0.693,110
-El Salvador ,0.68,117
-Bolivia ,0.674,118
+El Salvador,0.68,117
+Bolivia,0.674,118
 Nicaragua,0.645,124
-Guatemala ,0.64,125
-,,
-,,
-"Fuente: Informe sobre Desarrollo Humano 2016, Programa de las Naciones Unidas para el Desarrollo (PNUD), 2016.    (http://hdr.undp.org/sites/default/files/HDR2016_SP_Overview_Web.pdf). Página 32 ",,
-"Argumento: El Índice de Desarrollo Humano (IDH) es una alternativa a la clasificación del progreso de los países sólo en base a nivel de su Producto Interno Bruto (PIB).  Por lo que, sintetiza el nivel de logro en tres dimensiones: Salud (esperanza de vida), educación (promedio de años de escolaridad y años de escolaridad previstos) e ingresos (Ingreso nacional bruto per capita)",,
+Guatemala,0.64,125

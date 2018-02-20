@@ -2,31 +2,31 @@ import json
 import csv
 import os
 
-# with open('data/contexto-general/ambiental/ContextoAmbiental-HuellaEcologica.csv', newline='') as csvfile:
-#     reader = csv.reader(csvfile)
-#     data = []
-#     rownum = 0
-#     for row in reader:
-#         if rownum == 0:
-#             header = row
-#         else:
-#             colnum = 0
-#             datum1 = {}
-#             datum2 = {}
-#             for col in row:
-#                 if header[colnum] in ['Year']:
-#                     datum1[header[colnum]] = int(col)
-#                     datum1["type"]=header[colnum+1]
-#                     datum1["value"]=float(row[colnum+1])
-#                     datum2[header[colnum]] = int(col)
-#                     datum2["type"]=header[colnum+2]
-#                     datum2["value"]=float(row[colnum+2])
-#                 colnum += 1
-#             data.append(datum1)
-#             data.append(datum2)
-#         rownum += 1
-#     with open('data/contexto-general/ambiental/ContextoAmbiental-HuellaEcologica.json', 'w') as f:
-#         json.dump(data, f, ensure_ascii=False)
+with open('data/contexto-general/ambiental/ContextoAmbiental-HuellaEcologica.csv', newline='') as csvfile:
+    reader = csv.reader(csvfile)
+    data = []
+    rownum = 0
+    for row in reader:
+        if rownum == 0:
+            header = row
+        else:
+            colnum = 0
+            datum1 = {}
+            datum2 = {}
+            for col in row:
+                if header[colnum] in ['year']:
+                    datum1[header[colnum]] = int(col)
+                    datum1["type"]=header[colnum+1]
+                    datum1["value"]=float(row[colnum+1])
+                    datum2[header[colnum]] = int(col)
+                    datum2["type"]=header[colnum+2]
+                    datum2["value"]=float(row[colnum+2])
+                colnum += 1
+            data.append(datum1)
+            data.append(datum2)
+        rownum += 1
+    with open('data/contexto-general/ambiental/ContextoAmbiental-HuellaEcologica.json', 'w') as f:
+        json.dump(data, f, ensure_ascii=False)
 
 # with open('data/contexto-general/cti/CTI-Actividademprendedora.csv', newline='') as csvfile:
 #     reader = csv.reader(csvfile)

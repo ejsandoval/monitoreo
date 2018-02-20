@@ -7,6 +7,7 @@
   <script src='js/d3plus.full.min.js'></script>
   <script src="https://unpkg.com/vue"></script>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/ambiental.css" />
 </head>
 
 <body>
@@ -21,11 +22,16 @@
         }
       })*/
     </script>
-  <div id="viz"></div>
+  <div class="column">
+    <div class="viz">
+      <h2>Huella Ecólogica de Chile (2000-2016)</h2>
+      <div  id="viz_0"></div>
+      <p>National Footprint Accounts 2017 (Data Year 2013); World Development Indicators, The World Bank (2016); U.N. Food and Agriculture Organization.</p>
+    </div>
+  </div>
     <script type="text/javascript">
       d3.json("data/contexto-general/ambiental/ContextoAmbiental-HuellaEcologica.json", function(error, footprint_data) {
         if (error) return console.error(error);
-        var dataArray = footprint_data;
         makeViz(footprint_data);
       });
 
@@ -36,7 +42,7 @@
         .tooltipConfig({
           body: function(d) {
             var table = "<table class='tooltip-table'>";
-            table += "<tr><td class='title'>Año:</td><td class='data'>" + d.Year + "</td></tr>";
+            table += "<tr><td class='title'>Año:</td><td class='data'>" + d.year + "</td></tr>";
             table += "<tr><td class='title'>Valor:</td><td class='data'>" + d.value + "</td></tr>";
             table += "</table>";
             return table;
@@ -49,8 +55,8 @@
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
           }
         })
-        .select("#viz")
-        .x("Year")
+        .select("#viz_0")
+        .x("year")
         .xConfig({
           title:"Año"
         })
@@ -63,12 +69,7 @@
         .render();
         console.log(vis);
       }
-       var attributes = [
-          {"type": "alpha", "hex": "#CC0000"},
-          {"type": "beta", "hex": "#00CC00"}
-        ]
     </script>
-    <div></div>
 </body>
 
 </html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.2/d3.js' charset='utf-8'></script>
+  <script src='js/d3plus.full.min.js'></script>
+  <script src="https://unpkg.com/vue"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/sociocultural.css" />
+</head>
+
+<body>
+  <div class="column">
+    <div class="viz">
+      <h2>Percepción de conflicto entre segmentos de la sociedad</h2>
+      <div  id="viz_0">
+      </div>
+      <p>Encuesta Bicentenario (2017) pagina 19)</p>
+    </div>
+    <div class="viz">
+      <h2>Resolución de problemas en un plazo de 10 años</h2>
+      <div  id="viz_1">
+      </div>
+      <p>Encuesta Bicentenario (2017) pagina 17-18.</p>
+    </div>
+    <div class="viz">
+      <h2>% de encuestados que está de acuerdo/en desacuerdo con las frases mencionadas</h2>
+      <div  id="viz_2">
+      </div>
+      <p>Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Pagina 71.</p>
+    </div>
+    <div class="viz">
+      <h2>¿Cuán satisfecho está usted con su vida en este momento?</h2>
+      <div  id="viz_3">
+      </div>
+      <p>Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Pagina 69.</p>
+    </div>
+    <div class="viz">
+      <h2>Porcentaje de encuestados que se considera satisfecho con la vida vs. percepción de satisfacción con la vida de los demás chilenos</h2>
+      <div  id="viz_4">
+      </div>
+      <p>Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Pagina 68</p>
+    </div>
+    <div class="viz">
+      <h2>Percepción de confianza en las instituciones</h2>
+      <div  id="viz_5">
+      </div>
+      <p>Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Página 22.</p>
+    </div>
+    <div class="viz">
+      <h2>Percepción de corrupción en las instituciones</h2>
+      <div  id="viz_6">
+      </div>
+      <p>Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Página 23.</p>
+    </div>
+    <div class="viz">
+      <div class="confianza">
+        <h2 id="preg1"></h2>
+        <div  id="viz_7">
+        </div>
+      </div>
+      <div class="confianza">
+        <h2 id="preg2"></h2>
+        <div  id="viz_8">
+        </div>
+      </div>
+      <div class="confianza">
+        <h2 id="preg3"></h2>
+        <div  id="viz_9">
+        </div>
+      </div>
+      <p>Centro de Estudios de Conflicto y Cohesión Social. Confianza en Instituciones Políticas en Chile. Encuesta Nacional COES 2014. Página 12-13. Desde la literatura se señala una asociación entre confianza en instituciones políticas y confianza interpersonal, es decir, una mayor confianza en las instituciones se relaciona con una mayor confianza interpersonal (Montero, Zmerli, &amp Newton, 2008).</p>
+    </div>
+    <div class="viz">
+      <h2 id="preg4"></h2>
+      <div  id="viz_10"></div>
+      <p>Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Página 71.</p>
+    </div>
+    <div class="viz">
+      <h2>Evolución confianza social en Chile. % de personas que afirma: "se puede confiar en la mayoría de las personas"</h2>
+      <div  id="viz_11"></div>
+      <p>Elaboración propia en base a World Values Surveys</p>
+    </div>
+    <div class="viz">
+      <h2>En general, ¿Ud. diría que se puede confiar en la mayoría de las personas o no se puede confiar en la mayoría de las personas?</h2>
+      <div  id="viz_12"></div>
+      <p>Consejo para la Transparencia. VIII Estudio Nacional de Transparencia (Enero 2017).</p>
+    </div>
+    <div class="viz">
+      <h2>Nivel de desarrollo humano de Chile con respecto a América Latina (escala de 0 a 1)</h2>
+      <div  id="viz_13"></div>
+      <p>Informe sobre Desarrollo Humano 2016, Programa de las Naciones Unidas para el Desarrollo (PNUD), 2016. (http://hdr.undp.org/sites/default/files/HDR2016_SP_Overview_Web.pdf). Página 32. <br> El Índice de Desarrollo Humano (IDH) es una alternativa a la clasificación del progreso de los países sólo en base a nivel de su Producto Interno Bruto (PIB). Por lo que, sintetiza el nivel de logro en tres dimensiones: Salud (esperanza de vida), educación (promedio de años de escolaridad y años de escolaridad previstos) e ingresos (Ingreso nacional bruto per capita).</p>
+    </div>
+    <div class="viz">
+      <h2>Evolución Índice para Chile</h2>
+      <div  id="viz_14"></div>
+      <p>IThe Global Gender Gap Report 2017, The World Economic Forum’s. (http://www3.weforum.org/docs/WEF_GGGR_2017.pdf) Página 128. <br> Índice compuesto por cuatro dimensiones
+      <br>* compuesto por tres conceptos: la brecha de participación, la brecha de remuneración y la brecha de avance. La brecha de participación se captura utilizando la diferencia entre mujeres y hombres en las tasas de participación en la fuerza de trabajo. La brecha de remuneración se capta a través de la proporción del ingreso ganado estimado entre mujeres y un indicador cualitativo recopilado a través de la Encuesta anual de opinión del Foro Económico Mundial (igualdad salarial para trabajos similares). Finalmente, la brecha entre el avance de las mujeres y los hombres se refleja en la proporción de mujeres y hombres entre los legisladores, altos funcionarios y gerentes, y la proporción de  mujeres y hombres entre los trabajadores técnicos y profesionales.
+      <br>** Este subíndice captura la brecha entre el acceso actual de las mujeres y los hombres a la educación a través de las relaciones de mujeres a hombres en la educación primaria, secundaria y terciaria. Además, se refleja en la relación entre la tasa de alfabetización de las mujeres y la tasa de alfabetización de los hombres.
+      <br>*** Este subíndice proporciona una visión general de las diferencias entre la salud de las mujeres y los hombres a través del uso de dos indicadores. El primero es la proporción de sexos al nacer, que tiene como objetivo específico capturar el fenómeno de las ""mujeres desaparecidas"", que prevalece en muchos países en donde existe una fuerte preferencia por los hijos. En segundo lugar, la esperanza de vida saludable de los hombres y la brecha entre mujeres. Esta medida proporciona una estimación de la cantidad de años que las mujeres y los hombres pueden esperar vivir con buena salud.
+      <br>**** Mide la brecha entre hombres y mujeres en el más alto nivel de toma de decisiones políticas, a través de la proporción de mujeres y hombres en cargos ministeriales y la proporción de mujeres y hombres en cargos parlamentarios. Además, se incluye la relación de mujeres a hombres en términos de años en la oficina ejecutiva  (ministro o presidente) durante los últimos 50 años.</p>
+    </div>
+    <div class="viz">
+      <h2>Ranking de Chile en relación a América Latina</h2>
+      <div  id="viz_15"></div>
+      <p>The Global Gender Gap Report 2017, The World Economic Forum’s. (http://www3.weforum.org/docs/WEF_GGGR_2017.pdf) Página 26.</p>
+    </div>
+  </div>
+  <script src="js/sociocultural-charts.js"></script>
+</body>
+
+</html>
