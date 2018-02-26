@@ -1,5 +1,8 @@
-contextopolitico_tema,fuente,titulo,comment
-Consumodepolitica,"Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Pagina 17",Realización de actividades relacionadas a la política,
+nombre,titulo,comentario,fuente,link
+Consumodepolitica,Realización de actividades relacionadas a la política,,"Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Pagina 17",
 Votanteselecciones2017,"Servicio Electroral de Chile (SERVEL), 2017. http://www.servelelecciones.cl/",Votantes en Elecciones 2017,
-Libertadesciviles,Encuesta Bicentenario 2016. Página 29,Percepción de derechos y libertades garantizadas,
-Funcionamientodelademocracia,"Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Pagina 20",¿Qué tan bien o qué tan mal cree Ud. que funciona la democracia en Chile?,
+Libertadesciviles,Percepción de derechos y libertades garantizadas,,Encuesta Bicentenario 2016. Página 29,
+Funcionamientodelademocracia,¿Qué tan bien o qué tan mal cree Ud. que funciona la democracia en Chile?,,"Estudio Nacional de Opinión Pública, Centro de Estudios Públicos (CEP), Abril-Mayo 2017. Pagina 20",
+Corrupcionorgpubli2,Percepción de corrupción en organismos públicos en Chile,,Consejo para la Transparencia. VIII Estudio Nacional de Transparencia (Enero 2017). Página 54,
+Transparenciaensectorpublico,Percepción de transparencia de los organismos y funcionarios públicos,,Consejo para la Transparencia. VIII Estudio Nacional de Transparencia (Enero 2017). Página 12,
+Participacionenactcomunitarias,% de pertenencia o participación en organizaciones sociales,,Encuesta Bicentenario 2016. Página 30,
