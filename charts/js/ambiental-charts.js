@@ -50,7 +50,7 @@ d3.json("data/contexto-general/ambiental/ContextoAmbiental-EmisionCO2percapita.j
           body: function(d) {
             var table = "<table class='tooltip-table'>";
             table += "<tr><td class='title'>Año:</td><td class='data'>" + d.year + "</td></tr>";
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.value + "%</td></tr>";
+            table += "<tr><td class='title'>Toneladas de CO2 por habitante:</td><td class='data'>" + d.value + "%</td></tr>";
             table += "</table>";
             return table;
           },
@@ -70,7 +70,7 @@ d3.json("data/contexto-general/ambiental/ContextoAmbiental-EmisionCO2percapita.j
         .y("value")
         .yDomain([0,30])
         .yConfig({
-          title:"Porcentaje de la población adulta (18-64 años)"
+          title:"En toneladas de CO2 por habitante"
         })
         .groupBy("country")
         .render();

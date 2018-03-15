@@ -162,7 +162,7 @@ d3.json("data/contexto-general/economico/ContextoEconomico-PobrezaExtremaCasen20
           title:"Año"
         })
         .y("value")
-        .yDomain([0,100])
+        .yDomain([0,50])
         .yConfig({
           title:"Porcentaje (%)"
         })

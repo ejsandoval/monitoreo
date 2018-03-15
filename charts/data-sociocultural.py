@@ -158,7 +158,7 @@ for subdimension in subdimensions:
 
     if subdimension == "Confianzaenlasinstituciones":
         for fileName in fileNames:
-            if fileName == "Confianzaenlasinstituciones2":
+            if fileName == "Confianzaenlasinstituciones":
                 with open(path+"-"+fileName+'.csv', newline='', encoding="utf-8") as csvfile:
                     reader = csv.reader(csvfile)
                     data = []
