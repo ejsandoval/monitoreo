@@ -71,7 +71,7 @@ for fileName in fileNames:
                     datum1 = {}
                     datum2 = {}
                     for col in row:
-                        if header[colnum] in ['Areas']:
+                        if header[colnum] in ['Áreas']:
                             datum1["area"] = col
                             datum1["type"] = header[colnum+1]
                             datum1["value"] = float(row[colnum+1].replace("%",""))

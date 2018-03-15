@@ -11,17 +11,15 @@
 </head>
 
 <body>
-  <div id="vis_chart1">
-    <!--<h2>{{product}} are in stock.</h2>-->
-  </div>
-  <script type="text/javascript">
-      /*const app = new Vue({
-        el: '#vis_chart1',
-        data:{
-          product: 'Boots'
-        }
-      })*/
-    </script>
+  <nav>
+    <ul>
+      <li><a href="ambiental.html">Ambiental</a></li>
+      <li><a href="cti.html">CTI</a></li>
+      <li><a href="economico.html">Económico</a></li>
+      <li><a href="politico.html">Político-Institucional</a></li>
+      <li><a href="sociocultural.html">Socio-Cultural</a></li>
+    </ul>
+  </nav>
   <div class="column">
     <div class="viz">
       <h2>Huella Ecólogica de Chile (2000-2016)</h2>
@@ -32,6 +30,32 @@
       <h2>Emisiones de Dióxido de Carbono (CO2) por habitante</h2>
       <div  id="viz_1"></div>
       <p>CEPAL Comisión Económica para América Latina y el Caribe : Cálculos realizados en base a los datos de CDIAC, Proyecto Global de Carbono y CEPALSTAT.</p>
+    </div>
+    <div class="viz">
+      <h2>Emisiones de Dióxido de Carbono (CO2) por cada 1.000 dólares de Producto Interno Bruto</h2>
+      <div  id="viz_2"></div>
+      <p>CEPAL Comisión Económica para América Latina y el Caribe : Cálculos realizados en base a los datos de CDIAC, Proyecto Global de Carbono y CEPALSTAT.</p>
+    </div>
+    <div class="viz">
+      <h2>En los últimos 3 años, usted...</h2>
+      <div id="viz_3"></div>
+      <div id="viz_3_1"></div>
+      <p>Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2018).</p>
+    </div>
+    <div class="viz">
+      <h2>Percepción de responsabilidad de ocurrencia y solución al Cambio Climático</h2>
+      <div id="viz_5"></div>
+      <p>Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2016).</p>
+    </div>
+    <div class="viz">
+      <h2>Según su percepción ¿Cual es el principal problema ambiental que lo afecta a usted? (2016)</h2>
+      <div id="viz_6"></div>
+      <p>Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2016 y 2018).</p>
+    </div>
+    <div class="viz">
+      <h2>Respaldo de medidas</h2>
+      <div id="viz_8"></div>
+      <p>Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2016 y 2018).</p>
     </div>
   </div>
     <script type="text/javascript" src="js/ambiental-charts.js"></script>

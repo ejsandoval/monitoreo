@@ -171,7 +171,7 @@ for subdimension in subdimensions:
                             category = ""
                             for col in row:
                                 datum = {}
-                                if header[colnum] in ['institucion']:
+                                if header[colnum] in ['instituciones']:
                                     institution = col
                                 else:
                                     datum["institution"] = institution

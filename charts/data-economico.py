@@ -153,3 +153,33 @@ for fileName in fileNames:
                 rownum += 1
             with open(path+"-"+fileName+'.json', 'w', encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False)
+
+    if fileName == "GiniLatam":
+        with open(path+"-"+fileName+'.csv', newline='', encoding="utf-8") as csvfile:
+            reader = csv.reader(csvfile)
+            data = []
+            rownum = 0
+            for row in reader:
+                if rownum == 0:
+                    header = row
+                else:
+                    colnum = 0
+                    category = ""
+                    datum1 = {}
+                    datum2 = {}
+                    for col in row:
+                        if header[colnum] in ["extremepovertypercentage"]:
+                            datum1["category"] = header[colnum]
+                            datum1["value"] = col
+                        elif header[colnum] in ["indigencepercentage"]:
+                            datum2["category"] = header[colnum]
+                            datum2["value"] = col
+                        else:
+                            datum1[header[colnum]] = col
+                            datum2[header[colnum]] = col
+                        colnum += 1
+                    data.append(datum1)
+                    data.append(datum2)
+                rownum += 1
+            with open(path+"-"+fileName+'.json', 'w', encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False)

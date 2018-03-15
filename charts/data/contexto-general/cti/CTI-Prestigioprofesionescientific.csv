@@ -1,4 +1,4 @@
-Profesion,1 a 2,3,4 a 5
-Medicos,4.5%,11.6%,83.7%
-Ingenieros/as,5.1%,15.3%,78.8%
-Cientificos/as,6.0%,13.4%,78.6%
+Profesion,1 a 2,3,4 a 5, N/S o N/R
+Medicos,4.5%,11.6%,83.7%,0.2%
+Ingenieros/as,5.1%,15.3%,78.8%,0.8%
+Cientificos/as,6.0%,13.4%,78.6%,2%

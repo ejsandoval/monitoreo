@@ -3,7 +3,7 @@ Principalesproblemasambiental,Según su percepción ¿Cual es el principal probl
 N Total año 2018: 7.601
 Clasificación surge de codificación inmediata de pregunta abierta por parte del encuestador","Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2016 y 2018)."
 ParticipacionpoliticaenMA,"En los últimos 3 años, usted...",,"Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2018).",
-nivelderesponsabilidadcambioclimatico,"¿Cuán responsables son los siguiente grupos de que el cambio climático esté ocurriendo?","* % de completamente responsable
+nivelderesponsabilidad,"¿Cuán responsables son los siguiente grupos de que el cambio climático esté ocurriendo?","* % de completamente responsable
 N total: 2.170","Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2016).",
 nivelderesponsabilidadsolucioncambioclimatico,"¿Cuán responsables son los siguientes grupos en la solución del problema del cambio climático?","* % de completamente responsable
 N total: 2.170","Encuesta Nacional de Medio Ambiente y Cambio Climático, Ministerio de Medio Ambiente y Dirección de estudios Sociales del Instituto de Sociología de la Pontificia Universidad Católica de Chile (2016).",
@@ -12,7 +12,7 @@ Se omite No Sabe/No Responde","Encuesta Nacional de Medio Ambiente y Cambio Clim
 HuellaEcologica,Huella Ecólogica de Chile (2000-2016),"Argumento: La huella ecólogica es el total de superficie ecológicamente productiva (héctareas) que se necesita para producir los recursos de un ciudadano o un grupo de ciudadanos.
 * Medida en hectáreas globales por persona (hg) 
 ** Capacidad de la naturaleza para producir recursos renovables","National Footprint Accounts 2017 (Data Year 2013); World Development Indicators, The World Bank (2016); U.N. Food and Agriculture Organization.", "http://data.footprintnetwork.org/#/countryTrends?type=earth&cn=40"
-EmisionCO2percapita,Emisiones de Dióxido de Carbono (CO2) por habitante,"(En toneladas de CO2 por cada 1.000 dólares de PIB)
+EmisionCO2percapita,Emisiones de Dióxido de Carbono (CO2) por habitante,"(En toneladas de CO2 por habitante)
 Corresponde a las emisiones producto de la quema de combustibles fósiles y la producción de cemento.","CEPAL Comisión Económica para América Latina y el Caribe : Cálculos realizados en base a los datos de CDIAC, Proyecto Global de Carbono y CEPALSTAT.",http://estadisticas.cepal.org
-EmisionCO2PIB,Emisiones de Dióxido de Carbono (CO2) por cada 1.000 dólares de Producto Interno Bruto,"(En toneladas de CO2 por habitante)
+EmisionCO2PIB,Emisiones de Dióxido de Carbono (CO2) por cada 1.000 dólares de Producto Interno Bruto,"(En toneladas de CO2 por cada 1.000 dólares de PIB)
 Corresponde a las emisiones producto de la quema de combustibles fósiles y la producción de cemento.","CEPAL Comisión Económica para América Latina y el Caribe : Cálculos realizados en base a los datos de CDIAC, Proyecto Global de Carbono y CEPALSTAT.",http://estadisticas.cepal.org

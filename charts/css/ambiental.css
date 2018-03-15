@@ -8,25 +8,37 @@
 
 #viz_0{
   width: 600px;
-  height: 450px;
+  height: 550px;
   margin: 0 auto;
 }
 
 #viz_1{
-  width: 650px;
-  height: 400px;
+  width: 700px;
+  height: 550px;
   margin: 0 auto;
 }
 
 #viz_2{
-  width: 650px;
+  width: 700px;
   height: 400px;
   margin: 0 auto;
 }
 
+.d3plus-textBox text{
+  font-size: 8px;
+}
+
 #viz_3{
-  width: 650px;
-  height: 400px;
+  display: inline-block;
+  width: 450px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+#viz_3_1{
+  display: inline-block;
+  width: 450px;
+  height: 250px;
   margin: 0 auto;
 }
 
@@ -37,32 +49,32 @@
 }
 
 #viz_5{
-  width: 1200px;
+  width: 650px;
   height: 400px;
   margin: 0 auto;
 }
 
 #viz_6{
-  width: 1200px;
+  width: 800px;
   height: 400px;
   margin: 0 auto;
 }
 
 #viz_7{
-  width: 300px;
-  height: 300px;
+  width: 800px;
+  height: 400px;
   margin: 0 auto;
 }
 
 #viz_8{
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 500px;
   margin: 0 auto;
 }
 
 #viz_9{
-  width: 300px;
-  height: 300px;
+  width: 650px;
+  height: 400px;
   margin: 0 auto;
 }
 

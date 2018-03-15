@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  opacity: 1;
+  stroke-width: 0px;
+}
+
+/*.nodes circle:hover {
+  stroke: #000;
+  stroke-width: 2px;
+  -webkit-transition: stroke-width 0.2s ease-in;
+  transition: stroke-width 0.2s ease-in;
+}*/
+
+</style>
+<svg width="960" height="600">
+  <rect width="100%" height="100%" fill="black"/>
+</svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+let svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height"),
+    radius = 8;
+
+const color_array = ["#dcdcdc","#BC91D5","#69BD6B"];
+let color = d3.scaleOrdinal().range(color_array);
+
+let simulation = d3.forceSimulation()
+    .force("charge", d3.forceManyBody().strength(-1))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json("data/recursos-hidricos/dim-humana/investigadores.json", function(error, data) {
+  if (error) throw error;
+  console.log(data.researchers);
+  let sexCount = d3.nest()
+    .key(function(d) { return Object.values(d)[0].sex; })
+    .rollup(function(v) { return v.length; })
+    .entries(data.researchers);
+  /*var sexAvg = d3.nest()
+    .key(function(d) { return Object.values(d)[0].sex; })
+    .rollup(function(v) { return d3.mean(v, function(d) { return d.amount; }); })
+    .entries(expenses);
+  console.log(JSON.stringify(expensesAvgAmount));
+  console.log(JSON.stringify(sexCount));
+  console.log(sexCount);*/
+
+  var node = svg.append("g")
+    .attr("class", "nodes")
+    .selectAll("circle")
+    .data(data.researchers)
+    .enter().append("circle")
+    .attr("r", radius)
+    .attr("fill", function(d) { 
+        let values = Object.values(d);
+        return color(values[0].sex); 
+    })
+    .on("mouseover", handleMouseOver)
+    .on("mouseout", handleMouseOut)
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
+  node.append("title")
+      .text(function(d) { 
+        let keys = Object.keys(d);
+        return keys[0];
+      });
+
+  var legend = svg.selectAll(".legend")
+    .data(color.domain())
+    .enter().append("g")
+    .attr("class", "legend")
+    /*.attr("quantity", function(d) {
+        console.log(d);
+        return sexCount[Object.keys(d)[0].sex]*2;
+    })*/
+    .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+legend.append("rect")
+    .attr("x", width - 150)
+    .attr("y",10)
+    .attr("width", function(d) {
+        let value = 0;
+        for(i = 0; i < sexCount.length; i++){
+          if (d === sexCount[i]['key']){
+            value = sexCount[i]['value'];
+          }
+        }
+        return value*0.5;
+    })
+    .attr("height", 18)
+    .style("fill", color);
+
+legend.append("text")
+    .attr("x", function(d){
+        return d3.select(this.parentNode).select('rect').attr('x') - 5;
+    })
+    .attr("y", 19)
+    .attr("dy", ".35em")
+    .style("text-anchor", "end")
+    .style("fill","white")
+    .style("font-family","sans-serif")
+    .text(function(d) { 
+        let value = 0;
+        for(i = 0; i < sexCount.length; i++){
+          if (d === sexCount[i]['key']){
+            value = sexCount[i]['value'];
+          }
+        }
+        value = (+(value / data.researchers.length).toFixed(4)) * 100;
+        let sex = '';
+        if(d === 'M'){
+          sex = 'Hombres'
+        }
+        else if (d === 'F'){
+          sex = 'Mujeres'
+        }
+        else{
+          sex = 'No declarado'
+        }
+        return value + '%' + ' ' + sex;
+      });
+
+  simulation
+      .nodes(data.researchers)
+      .on("tick", ticked);
+/*
+  simulation.force("link")
+      .links(graph.links);*/
+
+  function ticked() {
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+});
+
+d3.selectAll('.nodes')
+    .attr("fill", function(d) { 
+        let values = Object.values(d);
+        return color(values[0].sex); 
+    });
+
+function colorOFOS (d){
+    const values = Object.values(d);
+    return color(values[0].ofos); 
+}
+
+
+function colorSex (d){
+    const values = Object.values(d);
+    return color(values[0].sex); 
+}
+
+function colorRegion (d){
+    const values = Object.values(d);
+    return color(values[0].region); 
+}
+
+function colorType (d){
+    const values = Object.values(d);
+    return color(values[0].type); 
+}
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+function handleMouseOver(d, i) {  // Add interactivity
+            let values = Object.values(d);
+            console.log(d3.select(this).attr('fill'));
+            // Use D3 to select element, change color and size
+            d3.select(this).attr('stroke', function(d) { 
+                let values = Object.values(d);
+                return color(values[0].sex); 
+            })
+            .attr('r',12);
+          }
+function handleMouseOut(d, i) {
+            let values = Object.values(d);
+            // Use D3 to select element, change color back to normal
+            d3.select(this)
+              .attr('fill',color(values[0].sex))
+              .transition()
+              .attr('r',9);
+          }
+
+</script>

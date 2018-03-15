@@ -37,18 +37,12 @@
   padding-bottom: 20px;
   background-color: white;
 }
+
 .column{
   padding: 1%;
   margin: 0 auto;
 }
 
-.viz svg{
-	overflow: visible;
-}
-
-svg text{
-	font-family: source;
-}
 
 h2 {
   font-family: sourceBold;
@@ -60,4 +54,28 @@ p {
   font-family: source;
   font-size: 12px;
   text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 2%;
+}
+
+nav li a{
+  font-family: source;
+  text-decoration: none;
+  color: gray;
+}
+
+nav li a:hover{
+  font-family: source;
+  color: black;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav {
+  margin-top: 2%;
 }

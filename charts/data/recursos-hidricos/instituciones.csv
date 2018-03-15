@@ -1,0 +1,711 @@
+institucion,id_institucion
+Academia Politécnica Naval,1
+"AgroParis Tech, Escuela Doctoral ABIES",2
+Arizona State University,3
+Aston University,4
+Carnegie Mellon University,5
+Centro Agronómico Tropical de Investigación y Enseñanza,6
+Centro de Estudios y Experimentación de Obras Públicas (CEDEX),7
+Centro de Investigación Científica y de Educación Superior de Ensenada,8
+Centro Interamericano de Enseñanza Estadística,9
+"Centro Internacional de Estudios Superiores en Ciencias Agronómicas, Montpellier",10
+Centro Internacional de Formación en Ciencias Ambientales,11
+Centro Nacional de Estudios Espaciales,12
+Clausthal University of Technology,13
+"Coastal Engineering and Port Development, UNESCO IHE- Delft",14
+Colorado State University,15
+Columbia University,16
+Cornell University,17
+Czech University of Agriculture,18
+Delft University of Technology,19
+Erasmus University Rotterdam,20
+Escuela de estudios superiores y postgrado en Madrid,21
+Escuela de Minas de ParisTech,22
+Escuela Europea de Negocios,23
+Escuela Nacional de Aeronáutica y Mecánica (ENSMA),24
+Escuela Nacional de Puentes y Caminos,25
+Escuela Nacional Superior Agronómica de Montpellier,26
+"Escuela Nacional Superior de Electrónica, Electrotécnica, Informática, Hidráulica y Telecomunicaciones",27
+Escuela Normal Superior de Cachan,28
+Escuela Politecnica Superior Gandia,29
+Escuela Superior de Prospección Geológica,30
+Escuela Técnica de Praga,31
+Facultad Latinoamericana de Ciencias Sociales (FLACSO),32
+Florida State University,33
+"Fundación Centro Internacional de Hidrología Subterránea, Barcelona",34
+Georgia Institute of Technology,35
+Ghent University,36
+ILPES-CEPAL,37
+Imperial College London,38
+Instituto de Estudios Políticos de Grenoble,39
+Instituto de Hidrología de Madrid,40
+Instituto de Investigaciones Ecológica de Málaga,41
+Instituto de Minas,42
+Instituto Tecnológico de Israel,43
+Justus Liebig University,44
+Kellogg Northwestern University,45
+Leiden University,46
+Leland Stanford Junior University,47
+London Metropolitan University,48
+Loughborough University,49
+Ludwig-Maximilians-Universität München,50
+Manhattan College,51
+Massachusetts Institute of Technology,52
+McGill University,53
+Mississippi State University,54
+Missouri University – Rolla,55
+Monash University,56
+Montpellier SupAgro,57
+New York University,58
+North Carolina State University,59
+Northwestern University,60
+Ohio State University,61
+Ohio University,62
+Oregon State University,63
+Pennsylvania State University,64
+Politécnico de Milán,65
+Politécnico de Torino,66
+Pontificia Universidad Católica de Chile,67
+Pontificia Universidad Católica de Minas Gerais,68
+Pontificia Universidad Católica de Valparaíso,69
+Queen’s University Kingston,70
+Queen’s University Kingston,71
+Rachel Carson Center,72
+Radboud University Nijmegen,73
+Rensselaer Polytechnic Institute,74
+Royal Institute of Technology,75
+Royal Melbourne Institute of Technology,76
+RWTH Aachen University,77
+Staffordshire University,78
+Stanford University,79
+State University of New York,80
+Swedish University of Agricultural Sciences,81
+Tecnológico de Monterrey,82
+The American University,83
+The City University,84
+The Johns Hopkins University,85
+The University of Edinburgh,86
+Universidad Academia de Humanismo Cristiano,87
+Universidad Adolfo Ibáñez,88
+"Universidad Albert Ludwig, Freiburg im Breisgau",89
+Universidad Alberto Hurtado,90
+Universidad Aplicada de Aquisgrán,91
+Universidad Aristotélica de Tesalónica,92
+Universidad Arturo Prat,93
+Universidad Austral de Chile,94
+Universidad Autónoma de Baja California,95
+Universidad Autónoma de Barcelona,96
+Universidad Autónoma de Chile,97
+Universidad Autónoma de Madrid,98
+Universidad Bernardo O`Higgins,99
+"Universidad Blaise Pascal, Clermont-Ferrand",100
+Universidad Carlos III,101
+Universidad Católica de Córdoba,102
+Universidad Católica de la Santísima Concepción,103
+Universidad Católica de Temuco,104
+Universidad Católica del Maule,106
+Universidad Católica del Norte,107
+Universidad Central de Chile,109
+Universidad Central Marta Abreus de Las Villas,110
+Universidad Complutense de Madrid,111
+Universidad de Alcalá de Henares,112
+Universidad de Alicante,113
+Universidad de Almería,114
+Universidad de Andalucía,115
+Universidad de Antofagasta,116
+Universidad de Artes y Ciencias Sociales ARCIS,117
+Universidad de Atacama,118
+Universidad de Barcelona,119
+Universidad de Berna,120
+Universidad de Bolonia,121
+Universidad de Brasilia,122
+Universidad de Bremen,123
+Universidad de Cantabria,124
+Universidad de Chile,125
+Universidad de Ciencias Aplicadas de Leipzig,126
+Universidad de Concepción,127
+Universidad de Córdoba,128
+Universidad de Cristian Albrechts de Kiel,129
+"Universidad de Deusto, Bilbao",130
+Universidad de Erlangen-Nürnberg,131
+Universidad de Extremadura,132
+Universidad de Finanzas de Moscú,133
+Universidad de Gales,134
+Universidad de Gerona,135
+Universidad de Gotemburgo,136
+Universidad de Göttingen,137
+Universidad de Granada,138
+Universidad de Grenoble,139
+Universidad de Guadalajara,140
+Universidad de Hamburgo,141
+Universidad de Hannover,142
+Universidad de Hokkaido,143
+Universidad de Huelva,144
+Universidad de Kyoto,145
+Universidad de La Frontera,146
+Universidad de La Habana,147
+Universidad de La Serena,148
+Universidad de Leipzig,149
+Universidad de Lleida,150
+Universidad de Los Andes,151
+Universidad de Los Lagos,152
+Universidad de Magallanes,153
+Universidad de Málaga,154
+Universidad de Milan-Bicocca,155
+Universidad de Montpellier,156
+Universidad de Münster,157
+Universidad de Nápoles Federico II,158
+Universidad de Navarra,159
+Universidad de Orleáns,160
+Universidad de Padua,161
+Universidad de París XI,162
+Universidad de Pisa,163
+Universidad de Piura,164
+Universidad de Playa Ancha,165
+Universidad de Rennes II Alta Bretaña,166
+Universidad de Roma II,167
+Universidad de Saarland,168
+Universidad de Salamanca,169
+Universidad de Santiago de Chile,170
+Universidad de Sao Paulo,171
+Universidad de Sevilla,172
+Universidad de Stuttgart,173
+Universidad de Talca,174
+Universidad de Tecnologías de Compiegne,175
+Universidad de Toulouse II-Le Mirail,176
+Universidad de Trento,177
+Universidad de Valencia,178
+Universidad de Valparaíso,179
+Universidad de Viña del Mar,181
+Universidad de Wurzburg,182
+Universidad de Zaragoza,183
+Universidad del Bío Bío,184
+Universidad del Cauca,185
+Universidad del Desarrollo,186
+Universidad del Mar,187
+Universidad del Norte,188
+Universidad del Valle,189
+Universidad Diego Portales,190
+Universidad Espíritu Santo de Guayaquil,191
+Universidad Estatal de Campinas,192
+Universidad Estatal de Suslov,193
+Universidad Europea de Madrid,194
+Universidad Federal de Minas Gerais,195
+Universidad Federal de Paraná,196
+Universidad Federal de Río de Janeiro,197
+Universidad Federal de Santa Catarina,198
+Universidad Finis Terrae,199
+Universidad Gabriela Mistral,200
+Universidad Humboldt de Berlín,201
+Universidad Iberoamericana,202
+Universidad Internacional de Andalucía,203
+Universidad La República,204
+Universidad Libre de Berlín,205
+Universidad Libre de Bruselas,206
+Universidad Ludwig Maximilian,207
+Universidad Mayor de San Andrés,208
+Universidad Metodista de Sao Paulo,209
+Universidad Metropolitana de Ciencias de la Educación,210
+Universidad Miguel de Cervantes,211
+Universidad Nacional Agraria La Molina,212
+Universidad Nacional Andrés Bello,213
+Universidad Nacional de Catamarca,214
+Universidad Nacional de Colombia,215
+Universidad Nacional de Córdoba,216
+Universidad Nacional de Educación a Distancia,217
+Universidad Nacional de San Agustín,218
+Universidad Nacional del Sur,219
+Universidad Paris Dauphine - Paris IX,220
+Universidad París I,221
+Universidad París II,222
+Universidad París XII Val de Marne,223
+Universidad Paul Valery Montpellier III,224
+Universidad Pierre Mendès France,225
+Universidad Politécnica de Cataluña,226
+Universidad Politécnica de Madrid,227
+Universidad Politécnica de Valencia,228
+Universidad Rey Juan Carlos,229
+Universidad San Sebastián,230
+Universidad Santiago de Compostela,231
+Universidad Santo Tomás,232
+Universidad Técnica de Berlín,233
+Universidad Técnica de Braunschweig,234
+Universidad Técnica de Darmstadt,235
+Universidad Técnica de Dresde,236
+Universidad Técnica de Lublin,237
+Universidad Técnica de München,238
+Universidad Técnica del Estado,239
+Universidad Técnica Federico Santa María,240
+Universidad Tecnológica Metropolitana,241
+Universidad Toulouse III,242
+Université Laval,243
+University College,244
+"University for Peace, Human Rights Centre",245
+University of Antwerp,246
+University of Arizona,247
+University of Birmingham,248
+University of Bristol,249
+University of British Columbia,250
+University of California,251
+University of Cambridge,252
+University of Canterbury,253
+University of Chicago,254
+University of Cincinnati,255
+University of Colorado,256
+University of East Anglia,257
+University of Geneva,258
+University of Göttingen,259
+University of Idaho,260
+University of Illinois at Urbana-Champaign,261
+University of Konstanz,262
+University of Leeds,263
+University of Leuven,264
+University of Liverpool,265
+University of London,266
+University of Maine,267
+University of Manchester,268
+University of Maryland,269
+University of Massachusetts,270
+University of Melbourne,271
+University of Michigan,272
+University of Minnesota,273
+University of Montana,274
+University of Nebraska,275
+"University of Nevada, Reno",276
+University of New Mexico,277
+University of Newcastle,278
+University of Newcastle Upon Tyne,279
+University of Notre Dame,280
+University of Oregon,281
+University of Otago,282
+University of Oxford,283
+University of Queensland,284
+University of Reading,285
+University of Southampton,286
+University of Southern California,287
+University of Stellenbosch,288
+University of Strathclyde,289
+University of Tennessee,290
+University of Twente,291
+University of Wales,292
+University of Washington,293
+University of Waterloo,294
+University of Winnipeg,295
+"University of Wisconsin, Madison",296
+Vilnius University,297
+Virginia Tech,298
+Wageningen University,299
+Washington State University,300
+York University,301
+Universidad de Murcia,302
+Centro de Investigación en Tecnología Aplicada a la Minería,303
+Ministerio de Obras Públicas,304
+National Research Institute of Science and Technology for Environment and Agriculture,305
+GP Consultores Ltda.,306
+Minería & Servicios Chile,307
+Instituto Nacional de Limnología,308
+Rhodos Asesorías y Proyectos Ltda.,309
+Modelación Ambiental SpA,310
+TETRA Technologies,67890
+University of the Witwatersrand,312
+"Energy Recovery, Inc.",313
+Doosan Hydro Technology,314
+Deltares,315
+The University of Queensland,316
+Votorantim Metais,317
+Doosan Enpure Ltd,318
+University of New South Wales,319
+Doosan Heavy Industries and Construction Co. Ltd.,320
+Zdoor bv,321
+Veolia Water Solutions & Technologies Francia,322
+SRK Consulting Chile,323
+Corporación Nacional del Cobre,324
+Southern Peru Copper Corp,325
+Compañía de Minas Buenaventura S.A.A.,326
+MWH Chile,327
+SRK Consulting Perú,328
+Comisión Chilena del Cobre,329
+MWH USA,330
+Teck Resources Canadá,331
+Omya International AG,332
+Pall Corporation UK,333
+Schlumberger Water Services Chile,334
+Abeinsa Abengoa,335
+Cadagua,336
+LG Nano H2O,337
+Wabag España,338
+International Desalination Association,339
+Dirección General del Territorio Marítimo y de Marina Mercante,340
+Pentair Water Latin America,341
+Jacobs Australia,342
+Aguas & Procesos S.A.,343
+"Unidad minera Cerro Lindo, Compañía Minera Milpo",344
+Esmeralda Corp. SAC,345
+Klohn Crippen Berger,346
+Caribbean Desalination Association (CaribDA),347
+Jacobs New Zealand,348
+Abengoa,349
+Geohidrología Consultores,350
+Valoriza Agua,351
+CDM Smith,352
+Institut de Recherche pour le Développement (IRD),353
+Veolia Water Solutions & Technologies Brasil,354
+MWH Australia,355
+Instituto de Fomento Pesquero (IFOP),356
+Centro de Investigación en Ecosistemas de la Patagonia,357
+Universidad Mayor de San Simón,358
+Museo de Historia Natural de Paris,359
+Museo de Historia Natural de Buenos Aires,360
+Andalué Ambiental Ltda.,361
+RWL Water-Nirosot,362
+"Instituto Federal de Educação, Ciência e Tecnologia do Tocantins",363
+Carlos Rivas Padilla y Cía. Ltda.,364
+Coopagua Santo Domingo Ltda.,365
+Empresa de Servicios Sanitarios del Bío Bío,366
+Aguas Andinas,367
+Aguas del Altiplano S.A.,368
+Aguas Antofagasta,369
+SENSUS Chile S.A.,370
+Instituto de Botânica,371
+Environment Canada,372
+Universidade Federal de Minas Gerais (UFMG),373
+Universidade Federal do Rio Grande do Sul,374
+Instituto Mexicano de Tecnología del Agua (IMTA),375
+Tohoku University,376
+Fichtner GmbH,377
+Universidad Nacional de Cuyo,378
+Universidad de la República,379
+Universidad Distrital Francisco José de Caldas,380
+Universidad Nacional de Ingeniería,381
+Universidad Nacional del Litoral,382
+Instituto Nacional del Agua (INA),383
+Universidad Nacional Autónoma de México,384
+Empresa,385
+Universidad Michoacana de San Nicolás de Hidalgo,386
+Logist Geoplan,387
+"Secretaría de Educación Superior, Ciencia, Tecnología e Innovación",388
+Universidad Autónoma del Estado de México,389
+Siam S.A.,390
+Universidad Nacional de San Juan,391
+Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP),392
+Inesproc S.A.,393
+Universidad Autónoma de Querétaro,394
+Universidad de Los Andes Venezuela,395
+Universidad Nacional de La Plata,396
+Servicios Hidrogeologicos Integrales,397
+Universidade Estadual de Campinas (UNICAMP),398
+Universidade Positivo,399
+Universidad Autónoma de Zacatecas,400
+Universidad Nacional de Cajamarca,401
+"Universidad Centroccidental ""Lisandro Alvarado"" (UCLA)",402
+Universidad Autónoma de Nuevo León,403
+Universidad Nacional de Santiago del Estero,404
+Geoklock,405
+Amphos 21 Group Chile,406
+GOTTA Ingeniería S.A.S.,407
+Universidad Nacional del Centro de la Provincia de Buenos Aires,408
+"Universidad de California, Davis",409
+Universidade Federal do Paraná,410
+Universitat Politècnica de Catalunya,411
+Servicio Geológico de Brasil,412
+Universidad Autónoma de Chapingo,413
+Geoambiente SRL,414
+Universidad de Los Andes Colombia,415
+Universidad Nacional Jorge Basadre Grohmann,416
+Universidad Nacional Agraria La Molina (UNALM),417
+Universidad de Buenos Aires,418
+Consejo Nacional de Ciencia y Tecnología (Conacyt),419
+Universidade Federal Da Paraiba,420
+Universidade Estadual de Maringá,421
+Universidade de São Paulo,422
+Pontificia Universidad Javeriana,423
+Independiente,424
+Gobierno Autónomo Descentralizado Provincia de Pichincha,425
+Intertechne,426
+Consultor Privado,427
+Universidad Técnica Particular de Loja,428
+Universidade Federal de Pernambuco,429
+Maccaferri De Peru Sac,430
+Universidad de Costa Rica,431
+Instituto Tecnológico y de Estudios Superiores de Monterrey,432
+Universidad Nacional de Chimborazo,433
+JRI Ingeniería,434
+Universidad Tecnológica de Pereira,435
+Compañía Chilena de Perforaciones,436
+Escuela Superior Politécnica del Litoral,437
+Universidad Autónoma de Manizales,438
+Universidad Autónoma de Chiapas,439
+Itasca S.A.,440
+Universidad de Antioquia,441
+Universidad Santo Tomas Seccional Tunja,442
+Universidad Nacional de La Pampa,443
+Ingenieria 75,444
+Universidad Juárez Autónoma de Tabasco,445
+Universidade Federal do Rio de Janeiro,446
+CEAS S.A.,447
+Hidrocaminos S. A.,448
+Universidad EAFIT,449
+Universidad Autónoma Metropolitana-Iztapalapa,450
+Universidad Autónoma de Yucatán,451
+Asociación Colombiana de Hidrogeólogos,452
+Universidad Nacional Experimental Francisco de Miranda,453
+University of Alaska Fairbanks,454
+Universidad Manuela Beltrán,455
+LACTEC - Instituto de Pesquisa para o Desenvolvimento,456
+Universidad de Castilla - La Mancha,457
+Pontificia Universidad Católica del Perú,458
+Asociación CFE-PYPSA-CVA-ICA,459
+Universidad Pontificia Bolivariana,460
+Universidad de Lisboa,461
+Sociedad Minera Cerro Verde SAA,462
+Universidade Federal de Goiás,463
+Estudios y Asesorías Ingenieros Ltda.,464
+Universidad de la Costa,465
+Autoridad Nacional del Agua,466
+Universidad de Carabobo,467
+Centro Interamericano de Recursos del Agua,468
+Universidade Federal do Ceará (UFC),469
+Universidad Católica Andrés Bello,470
+Corporación Centro de Ciencia y Tecnología de Antioquia,471
+Universidade do Vale do Itajaí,472
+Emicontrols Ltd.,473
+Leopold Xylem Water Solutions,474
+Aqualogy Chile,475
+Obras Sanitarias del Estado,476
+Consultor Forestal,477
+GeoBioForesta,478
+Universidad Nacional de Río Claro,479
+University of Louvain,480
+Universidad Nacional de San Luis,481
+Escola Superior de Agricultura “Luiz de Queiroz”,482
+Ministerio de Agricultura,483
+Iniciativa Agua y Medio Ambiente,484
+Forestal Mininco,485
+Programa Eco - Región Agenda Local 21,486
+Ministerio de Medio Ambiente,487
+WWF Chile,488
+Comité de Protección y Desarrollo Sustentable de Tinquilco,489
+Comité Agua Potable Rural Chaihuin,490
+Comité Agua potable rural Liquiñe,491
+Bioforest S.A.,492
+Ética en los Bosques,493
+Parés y Álvarez Ingenieros Asociados Ltda,494
+Independiente,495
+Empresa Nacional de Electricidad,496
+Sociedad del Canal de Maipo,497
+GHD,498
+Sinclair Knight Merz,499
+Compañía Minera Antamina,500
+Enviro -Tox Services Inc.,501
+CSIRO Process Science and Engineering,502
+Everis Energy Services (EXELERIA),503
+International Council on Mining and Metals,504
+BHP Billiton Australia,505
+Cerro Vanguardia S.A.,506
+Hatch Chile,507
+Ausenco Vector Argentina,508
+Fundación Chile,509
+IDE Technologies,510
+MWH Peru,511
+Hatch Perú,512
+Walsh Perú,513
+Seven Seas Water Corporation,514
+Teck Resources Chile,515
+Alden Research Laboratory Inc.,516
+Hazen Research Inc.,517
+Golder Associates Chile,518
+Anglo American Sudáfrica,519
+Anglo American Brasil,520
+Anglo American Chile,521
+Johnson Screens,522
+Universidade Federal de Santa Maria (UFSM),523
+WorleyParsons Canadá,524
+Xstrata Copper Chile,525
+Amphos 21 Group España,526
+Fluor Mining & Metals Chile,527
+Arcadis Chile,528
+WorleyParsons Australia,529
+Atacama Agua y Tecnología Ltda.,530
+Pall Corporation USA,531
+Waters of Patagonia,532
+Maptek,533
+Academia Chilena de Ciencias Agronómicas,534
+Arquitectura & Energía,535
+Watersavr™ Flexible Solutions Ltd.,536
+CoandaScreen,537
+Centro de Desenvolvimento da Tecnologia Nuclear,538
+Comisión Nacional de Riego,539
+Asociación Latinoamericana de Hidrología Subterránea para el Desarrollo,540
+Superintendencia de Servicios Sanitarios,541
+Universidad Andrés Bello,542
+Servicio de Impuestos Internos,543
+Asociación Gremial de Servicios de Agua Potable Rural,544
+CDP International Perú,545
+Ecometers S.A.,546
+Vivest Group Chile,547
+Emaresa S.A.,548
+Agua Potable Rural Región Metropolitana,549
+Bechtel Corporation Chile,550
+EDIC Ingenieros,551
+Antofagasta Minerals,554
+Armada de Chile,555
+BHP Billiton,556
+Centro de Ecología Aplicada,557
+Centro de Investigación en Ecosistemas de la Patagonia,558
+Consorcio I+D Vinos de Chile S.A.,559
+Dirección General de Aeronáutica Civil,560
+Ministerio de Agricultura,561
+Ministerio de Energía,562
+Ministerio de Minería,563
+Ministerio de Obras Públicas,564
+"Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura",565
+Teck Chile,567
+Terra Remote Sensing Ltda.,568
+Centro de Estudios del Desarrollo (CED),570
+Ministerio del Medio Ambiente,571
+Gobierno Regional de Antofagasta,572
+Instituto del Medio Ambiente (IDMA),698
+ADN Mentores,1234
+Chrysalis,1356
+MentorInn,1235
+Mentores de Impacto,1236
+Endeavor,1237
+Maas Latam,1238
+Red de Mentores Norte,1239
+Mentores x Chile,1240
+Net Mentora,1241
+3IE,1242
+ME Mujeres Empresarias,1243
+Plataforma Electrónica de Inversión,1244
+ChileGlobal Angels,1245
+Creación Red de Inversionistas Ángeles: Santiago,1246
+Red de Capitalistas Ángeles Fen Ventures,1247
+Dad Neos,1248
+Fundación Chile,1249
+Fedefruta,1250
+Fundación Centro de Los Bosques Nativos FORECOS,1251
+La Cumbre Baguales,1252
+Inversiones Oro Azul Limitada,1253
+Asociación de Canalistas del Maule,1254
+Essbio SA,1255
+Organización de usuarios Canal Bío-bío,1256
+Comunidad de Aguas del Canal Chufquen,1257
+Agrosat S.A.,1258
+Agua Glaciar S.A.,1259
+Aquainnovo,1260
+Instituo de Campos de Hielo,1261
+Transporte y Comercial Tressa Limitada,1262
+BakerPatagonia,1263
+Biofiltro Ltda,1265
+Posada del Parque,1266
+Esval SA,1267
+Biodiversa SA,1268
+Tratamientos de agua Manatial Chile SA,1269
+BCTEC Ingeniería y Tecnología SpA,1270
+Corporación Nacional del Cobre de Chile,1271
+Compañía Minera Zaldivar Limitada,1272
+Ingeniería Gestión y Desarrollo SA,1273
+Marpro Chile SA,1274
+Aguamarina SPA,1275
+Minera Andes Iron Limitada,1276
+Ingeniería y Construcciones Salas Hermanos Ltda,1277
+Pigmentos Naturales SA,1278
+Ecopreneur SA,1279
+Soluciones Mecánicas Mechsol Limitada,1280
+E.CL SA,1281
+Plasticopper SpA,1282
+Najar Ingenieros SA,1283
+DVS Tecnología SA,1284
+Asociación de Exportadores de Frutas de Chile A.G.,1285
+Cooperativa de Trabajo Agua de la Montaña,1286
+"Aguaex (incluido x mi, no aparece en Corfo)",1287
+Mitica Chiloé E.I.R.L.,1288
+Go Patagonia SpA,1289
+Sociedad Embotelladora de Los Ríos Ltda,1290
+Fresh Water,1291
+Sergio Pacheco y Compañía Limitada,1292
+Agroniebla SpA,1293
+Proter S.A.,1294
+Maestranza Diesel S.A.,1295
+"Consultora Ciencia, Educación y Cultura Sustentable Ltda",1296
+Alister Ingeniería y Construcción Limitada,1297
+Amphos 21 Consulting Chile Limitada,1298
+Donoso & Bouillet Consultores Limitada,1299
+Cooperativa Agrícola Control Pisquero de Elqui y Limarí Ltda,1300
+Efizity Ingeniería SpA,1301
+Aguas Chañar SA,1302
+Salitrera Irma Servicios de Higene Ltda,1303
+Confinger SpA,1304
+Módulos Wewfe Limitada,1305
+Bioingeniería Vetiver Chile SpA,1306
+Rafael Sotomayor y Compañía Limitada,1307
+Empresa de Ingeniería Valtec y Compañía Limitada,1308
+Empresa Nacional de Electricidad S.A,1309
+Sacyr Chile S.A.,1310
+Ecoglobal E.I.R.L.,1311
+Livn,1312
+Iansagro SA,1314
+JRI Ingeniería SA,1315
+Waki Labs,2345
+Corporación de Desarrollo de Tarapacá,2346
+Opendat,2347
+La Brújula Cowork,2348
+Housenovo Cowork,2349
+Cowork Balmaceda Arte Joven,2350
+Fábrica de Medios,2351
+Cidi Lab,2352
+La Makinita Cowork,2353
+Co-Work Santiago Centro,2354
+Co-WorkLATAM Monjitas,2355
+Cowork Radicales,2356
+Duam S.A.,2357
+Innova Cowork,2358
+Working House,2359
+Urban Station,2360
+Fundación Novo Milenio,2361
+Workingplace,2362
+C3,2363
+Kowork Temuco,2364
+La Nube Valdivia,2365
+Aldea Cowork,2366
+Co-Work Patagonia,2367
+Patagonia Labspace,2368
+Cowo Puerto Montt,2369
+La Minga Cowork,2370
+Asociación por el desarrollo Paralelo 47,2371
+Nomadesk,2372
+iF Fábrica de Ideas,2373
+Fundación Colunga,2374
+Hub Salud Concepción,2375
+Corporación para el Desarrollo de la Innovación y el Emprendimiento de la Región de Antofagasta,2376
+Corporación Santiago Innova,2377
+Universidad Tecnológica de Chile,2378
+ONG Acción Emprendedora,2379
+Fundación Chile,2380
+Mujeres Empresarias,2381
+TechnoServe Inc.,2382
+Microsoft Chile,2383
+Magical Startups,2456
+Universidad de Aconcagua,7865
+Universidad del Pacífico,99087
+Advanced Mining Technology Center,823727
+Universidad de Tarapacá,311
+Centro del Agua para Zonas Áridas de América Latina y el Caribe (CAZALAC),70988
+Instituto de Investigaciones Agropecuarias (INIA),70989
+Corporación Regional de Desarrollo Productivo de Coquimbo (CRDP),70990
+Fundación CSIRO Chile,70991
+Fundación para el Desarrollo Frutícola,70992
+Fundación Wageningen UR Chil,70993
+CORFO INNOVA,70994
+CORFO,70995
+CONICYT,70996
+Centro de Estudios Avanzados en Zonas Áridas,70997
+Centro de Estudios del Cuaternario de Fuego-Patagonia y Antártica,70998
+Fundación para la Innovación Agraria (FIA),70999
+Centro de Investigación en Ecosistemas de la Patagonia:,71000
+Agrícola Centro de Evaluación Rosario Ltda,71001
+Centro de Investigacón Minera y Metalúrgica,71002
+Agencia Regional de Desarrollo Productivo (ARDP),71003
+CULTIVOS HIDROBIOLOGICOS Y BIOTECNOLOGÍA AGUAMARINA S.A.,71004
+Centa Chile,71005
+CODECITE,71006

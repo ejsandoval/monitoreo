@@ -10,8 +10,7 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Consumode
         .tooltipConfig({
           body: function(d) {
             var table = "<table class='tooltip-table'>";;
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.opinion + "</td></tr>";
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.value + "%</td></tr>";
+            table += "<tr>" + d.opinion + " " + d.value + "%</tr>";
             table += "</table>";
             return table;
           },
@@ -31,9 +30,28 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Consumode
         .discrete("y")
         .y("activity")
         .yConfig({
-          title:"Actividad"
+          title: null,
+          width: 250
         })
         .groupBy("opinion")
+        /*.stackOrder(function (d) {
+          return ["Frecuentemente", "A veces", "Nunca", "NS/NR"].indexOf(d.opinion);
+        })*/
+        .stackOrder(["Frecuentemente", "A veces", "Nunca", "NS/NR"])
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%"
+          },
+        })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.opinion;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .render();
       }
 
@@ -48,8 +66,7 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Funcionam
         .tooltipConfig({
           body: function(d) {
             var table = "<table class='tooltip-table'>";;
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.date + "</td></tr>";
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.value + "%</td></tr>";
+            table += "<tr><td class='title'>Período:</td><td class='data'>" + d.date + "</td></tr>";
             table += "</table>";
             return table;
           },
@@ -58,7 +75,16 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Funcionam
           },
           title: function(d) {
             var txt = d.category;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase() + '<br>' + d.value + '%';
+          }
+        })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.category;
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
           }
         })
         .select(container)
@@ -67,8 +93,17 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Funcionam
           title:"Fecha"
         })
         .y("value")
+        .yDomain([0,100])
         .yConfig({
           title:"porcentaje"
+        })
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          },
+          Bar: {
+            width: 37
+          }
         })
         .groupBy("category")
         .render();
@@ -85,8 +120,8 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Libertade
         .tooltipConfig({
           body: function(d) {
             var table = "<table class='tooltip-table'>";
-            table += "<tr><td class='title'>Percepción:</td><td class='data'>" + d.opinion + "</td></tr>";
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.value + "%</td></tr>";
+            table += "<tr><td class='data'>" + d.opinion + "</td></tr>";
+            table += "<tr><td class='data'>" + d.value + "%</td></tr>";
             table += "</table>";
             return table;
           },
@@ -98,16 +133,37 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Libertade
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
           }
         })
-        .select(container)
-        .x("category")
-        .xConfig({
-          title:"Idea"
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.opinion;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
         })
-        .y("value")
+        .select(container)
+        .y("category")
         .yConfig({
+          title: null
+        })
+        .x("value")
+        .xDomain([0,100])
+        .xConfig({
           title:"Porcentaje %"
         })
+        .discrete("y")
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          },
+          Bar: {
+            height: 26.8
+          }
+        })
+        .legendPosition("right")
         .groupBy("opinion")
+        .groupPadding(20)
         .render();
       }
 
@@ -170,7 +226,7 @@ d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Votantese
         .render();
       }
 
-d3.json("data/contexto-general/politico-institucional/Corrupcion-Corrupcionorgpubli2.json", function(error, loaded_data) {
+d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Corrupcionorgpubli2.json", function(error, loaded_data) {
         if (error) return console.error(error);
         makeViz5(loaded_data,"#viz_5");
       });
@@ -180,11 +236,9 @@ d3.json("data/contexto-general/politico-institucional/Corrupcion-Corrupcionorgpu
         .data(data)
         .tooltipConfig({
           body: function(d) {
-            var table = "<table class='tooltip-table'>";;
-            table += "<tr><td class='title'>Año:</td><td class='data'>" + d.year + "</td></tr>";
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.value + "%</td></tr>";
-            table += "</table>";
-            return table;
+            var txt = "Año: " + d.year + "<br>";
+            txt += d.value + "%";
+            return txt;
           },
           footer: function(d) {
             return "<sub class='tooltip-footer'></sub>";
@@ -194,20 +248,36 @@ d3.json("data/contexto-general/politico-institucional/Corrupcion-Corrupcionorgpu
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
           }
         })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.category;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .select(container)
         .x("year")
         .xConfig({
           title:"Fecha"
         })
         .y("value")
+        .yDomain([0,100])
         .yConfig({
           title:"porcentaje"
         })
         .groupBy("category")
+        .groupPadding(30)
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          },
+        })
         .render();
       }
 
-d3.json("data/contexto-general/politico-institucional/Corrupcion-Transparenciaensectorpublico.json", function(error, loaded_data) {
+d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Transparenciaensectorpublico.json", function(error, loaded_data) {
         if (error) return console.error(error);
         makeViz6(loaded_data,"#viz_6");
       });
@@ -231,21 +301,37 @@ d3.json("data/contexto-general/politico-institucional/Corrupcion-Transparenciaen
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
           }
         })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.category;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .select(container)
         .x("year")
         .xConfig({
           title:"Fecha"
         })
         .y("value")
+        .yDomain([0,100])
         .yConfig({
           title:"porcentaje"
         })
         .groupBy("category")
+        .groupPadding(25)
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%"
+          },
+        })
         .render();
       }
 
 
-d3.json("data/contexto-general/politico-institucional/ParticipacionSocial-Participacionenactcomunitarias.json", function(error, loaded_data) {
+d3.json("data/contexto-general/politico-institucional/ContextoPolitico-Participacionenactcomunitarias.json", function(error, loaded_data) {
         if (error) return console.error(error);
         makeViz7(loaded_data,"#viz_7");
       });
@@ -266,8 +352,16 @@ d3.json("data/contexto-general/politico-institucional/ParticipacionSocial-Partic
             return "<sub class='tooltip-footer'></sub>";
           },
           title: function(d) {
+            return null;
+          }
+        })
+        .legendTooltip({
+          title: function(d) {
             var txt = d.activity;
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
           }
         })
         .select(container)
@@ -278,8 +372,15 @@ d3.json("data/contexto-general/politico-institucional/ParticipacionSocial-Partic
         .discrete("y")
         .y("activity")
         .yConfig({
-          title:"Actividad"
+          title:"Actividad",
+          width: 170
         })
+        .stackOrder(["Pertenece y participa activamente", "Pertenece pero no participa activamente", "Antes pertenecía pero ya no","Nunca he pertenecido", "NS/NR"])
         .groupBy("answer")
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%"
+          },
+        })
         .render();
       }

@@ -193,6 +193,7 @@ for fileName in fileNames:
                             data.append(datum)
                         colnum += 1
                 rownum += 1
+                
             with open(path+"-"+fileName+'.json', 'w', encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False)
 

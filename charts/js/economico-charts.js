@@ -21,7 +21,7 @@ d3.json("data/contexto-general/economico/ContextoEconomico-EvoluciondelindicedeG
           title:"Año"
         })
         .y("value")
-        .yDomain([0,100])
+        .yDomain([44,60])
         .yConfig({
           title:"Índice de Gini"
         })
@@ -162,11 +162,29 @@ d3.json("data/contexto-general/economico/ContextoEconomico-PobrezaExtremaCasen20
           title:"Año"
         })
         .y("value")
-        .yDomain([0,50])
+        .yDomain([0,100])
         .yConfig({
           title:"Porcentaje (%)"
         })
+        .shapeConfig({
+          label: function(d) {
+            return Math.round(d.value) + '%';
+          },
+          Bar: {
+            width: 36
+          }
+        })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.category;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .groupBy("category")
+        .groupPadding(20)
         .render();
       }
 
@@ -197,5 +215,73 @@ d3.json("data/contexto-general/economico/ContextoEconomico-PobrezaMultidimension
         .yConfig({
           title:"Porcentaje de la población total (%)"
         })
+        .shapeConfig({
+          label: function(d) {
+            return Math.round(d.value) + '%';
+          }
+        })
+        .render();
+      }
+
+d3.json("data/contexto-general/economico/ContextoEconomico-GiniLatam.json", function(error, loaded_data) {
+        if (error) return console.error(error);
+        makeViz6(loaded_data,"#viz_6");
+      });
+
+      function makeViz6(data,container){
+        var vis6 = new d3plus.Plot()
+        .data(data)
+        .legendConfig({
+          label: function(d) {
+            var txt = d.category === 'extremepovertypercentage' ? "Porcentaje de Pobreza Extrema" : "Porcentaje de Indigencia" ;
+            return txt;
+          }
+        })
+        .tooltipConfig({
+          body: function(d) {
+            var table = "<table class='tooltip-table'>";
+            table += "<tr><td class='title'>Año de registro del Gini:</td><td class='data'>" + d.year_gini + "</td></tr>";
+            table += "<tr><td class='title'>Valor:</td><td class='data'>" + d.gini + "%</td></tr>";
+            table += "</table>";
+            return table;
+          },
+          title: function(d) {
+            var txt = d.category === 'extremepovertypercentage' ? "Porcentaje de Pobreza Extrema" : "Porcentaje de Indigencia";
+            return txt;
+          }
+        })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.category === 'extremepovertypercentage' ? "Porcentaje de Pobreza Extrema" : "Porcentaje de Indigencia" ;
+            return null;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
+        .legend({
+          title: function(d) {
+            var txt = d.category === 'extremepovertypercentage' ? "Porcentaje de Pobreza Extrema" : "Porcentaje de Indigencia" ;
+            return txt;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
+        .select(container)
+        .x("country")
+        .discrete("x")
+        .xConfig({
+          title:"País"
+        })
+        .y("gini")
+        .yDomain([0,100])
+        .yConfig({
+          title:"Valor índice de Gini"
+        })
+        .groupBy("category")
+        .size("value")
+        .sizeMin(1)
+        .sizeMax(10)
         .render();
       }

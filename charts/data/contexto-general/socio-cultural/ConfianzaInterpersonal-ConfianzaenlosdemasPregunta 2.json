@@ -1,1 +1,1 @@
-[{"value": 27.0, "question": "Las personas tratar de ayudar a los demás o se preocupan solo de sí mismas?", "opinion": "Tratan de ayudar"}, {"value": 73.0, "question": "Las personas tratar de ayudar a los demás o se preocupan solo de sí mismas?", "opinion": "Sólo de sí mismas"}]
+[{"opinion": "Tratan de ayudar", "question": "Las personas tratar de ayudar a los demás o se preocupan solo de sí mismas?", "value": 27.0}, {"opinion": "Sólo de sí mismas", "question": "Las personas tratar de ayudar a los demás o se preocupan solo de sí mismas?", "value": 73.0}]

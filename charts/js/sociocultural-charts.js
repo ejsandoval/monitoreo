@@ -18,50 +18,34 @@ d3.json("data/contexto-general/socio-cultural/ClimaSocial-Percepciondeconflictos
             return "<sub class='tooltip-footer'></sub>";
           }
         })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.year;
+            return txt;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .select(container)
         .y("value")
         .yConfig({
           title:"Porcentaje (%)"
         })
         .x("conflict")
+        .yDomain([0,100])
         .xConfig({
           title:"Conflicto"
         })
-        .groupBy("year")
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          }
+        })
+        .groupBy("year") 
+        .groupPadding(20)
         .render();
       }
-
-      // function makeViz(data,container){
-      //   var vis = new d3plus.BarChart()
-      //   .data(data)
-      //   .tooltipConfig({
-      //     body: function(d) {
-      //       var table = "<table class='tooltip-table'>";;
-      //       table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.opinion + "</td></tr>";
-      //       table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.value + "%</td></tr>";
-      //       table += "</table>";
-      //       return table;
-      //     },
-      //     footer: function(d) {
-      //       return "<sub class='tooltip-footer'></sub>";
-      //     },
-      //     title: function(d) {
-      //       var txt = d.activity;
-      //       return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
-      //     }
-      //   })
-      //   .select(container)
-      //   .y("value")
-      //   .yConfig({
-      //     title:"Porcentaje(%)"
-      //   })
-      //   .x("year")
-      //   .xConfig({
-      //     title:"Año"
-      //   })
-      //   .groupBy("conflict")
-      //   .render();
-      // }
 
 d3.json("data/contexto-general/socio-cultural/ClimaSocial-Resoluciondeconflictos.json", function(error, loaded_data) {
         if (error) return console.error(error);
@@ -83,6 +67,15 @@ d3.json("data/contexto-general/socio-cultural/ClimaSocial-Resoluciondeconflictos
             return "<sub class='tooltip-footer'></sub>";
           }
         })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.year;
+            return txt;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .select(container)
         .y("value")
         .yDomain([0,100])
@@ -93,7 +86,13 @@ d3.json("data/contexto-general/socio-cultural/ClimaSocial-Resoluciondeconflictos
         .xConfig({
           title:"Conflicto"
         })
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          }
+        })
         .groupBy("year")
+        .groupPadding(20)
         .render();
       }
 
@@ -121,16 +120,37 @@ d3.json("data/contexto-general/socio-cultural/ClimaSocial-Respetoytolerancia.jso
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
           }
         })
-        .select(container)
-        .x("phrase")
-        .xConfig({
-          title:"Frase"
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.opinion;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
         })
-        .y("value")
+        .select(container)
+        .y("phrase")
         .yConfig({
+          title:"Frase",
+          width: 150
+        })
+        .x("value")
+        .xDomain([0,100])
+        .xConfig({
           title:"Porcentaje %"
         })
+        .discrete("y")
         .groupBy("opinion")
+        .groupPadding(20)
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          },
+          Bar: {
+            height: 26.8
+          }
+        })
         .render();
       }
 
@@ -155,38 +175,13 @@ d3.json("data/contexto-general/socio-cultural/ClimaSocial-Satisfaccionconlavida.
             return "<sub class='tooltip-footer'></sub>";
           }
         })
-        .select(container)
-        .y("value")
-        .yDomain([0,100])
-        .yConfig({
-          title:"Porcentaje (%)"
-        })
-        .x("opinion")
-        .xConfig({
-          title:"opinion"
-        })
-        .groupBy("date")
-        .render();
-      }
-
-d3.json("data/contexto-general/socio-cultural/ClimaSocial-Satisfaccionpropiavsotros.json", function(error, loaded_data) {
-        if (error) return console.error(error);
-        makeViz4(loaded_data,"#viz_4");
-      });
-
-      function makeViz4(data,container){
-        var vis4 = new d3plus.BarChart()
-        .data(data)
-        .tooltipConfig({
-          body: function(d) {
-            var table = "<table class='tooltip-table'>";
-            table += "<tr><td class='data'>" + d.opinion + "</td></tr>";
-            table += "<tr><td class='title'>Porcentaje:</td><td class='data'>" + d.value + "%</td></tr>";
-            table += "</table>";
-            return table;
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.date;
+            return txt;
           },
-          footer: function(d) {
-            return "<sub class='tooltip-footer'></sub>";
+          body: function(d) {
+            return null;
           }
         })
         .select(container)
@@ -197,13 +192,19 @@ d3.json("data/contexto-general/socio-cultural/ClimaSocial-Satisfaccionpropiavsot
         })
         .x("opinion")
         .xConfig({
-          title:"opinion"
+          title: null
         })
-        .groupBy("answer")
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%"
+          },
+        })
+        .groupBy("date")
         .render();
       }
 
-d3.json("data/contexto-general/socio-cultural/Confianzaenlasinstituciones-Confianzaenlasinstituciones2.json", function(error, loaded_data) {
+
+d3.json("data/contexto-general/socio-cultural/Confianzaenlasinstituciones-Confianzaenlasinstituciones.json", function(error, loaded_data) {
         if (error) return console.error(error);
         makeViz5(loaded_data,"#viz_5");
       });
@@ -223,17 +224,32 @@ d3.json("data/contexto-general/socio-cultural/Confianzaenlasinstituciones-Confia
             return "<sub class='tooltip-footer'></sub>";
           }
         })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.date;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .select(container)
         .y("value")
         .yDomain([0,100])
         .yConfig({
-          title:"Porcentaje (%)"
+          title:"Porcentaje que confía (%)"
         })
         .x("institution")
         .xConfig({
-          title:"institution"
+          title:"Institución"
+        })
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%"
+          },
         })
         .groupBy("date")
+        .groupPadding(25)
         .render();
       }
 
@@ -257,6 +273,15 @@ d3.json("data/contexto-general/socio-cultural/Confianzaenlasinstituciones-Percep
             return "<sub class='tooltip-footer'></sub>";
           }
         })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.date;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .select(container)
         .y("value")
         .yDomain([0,100])
@@ -267,6 +292,15 @@ d3.json("data/contexto-general/socio-cultural/Confianzaenlasinstituciones-Percep
         .xConfig({
           title:"institution"
         })
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          },
+          Bar: {
+            width: 15
+          }
+        })
+        .groupPadding(20)
         .groupBy("date")
         .render();
       }
@@ -358,7 +392,7 @@ d3.json("data/contexto-general/socio-cultural/ConfianzaInterpersonal-Confianzaen
         .render();
       }
 
-d3.json("data/contexto-general/socio-cultural/ConfianzaInterpersonal-ConfianzaenlosdemasPregunta 3.json", function(error, loaded_data) {
+d3.json("data/contexto-general/socio-cultural/ConfianzaInterpersonal-Confianzaenlosdemas2.json", function(error, loaded_data) {
         if (error) return console.error(error);
         makeViz10(loaded_data,"#viz_10");
       });
@@ -417,7 +451,22 @@ d3.json("data/contexto-general/socio-cultural/ConfianzaInterpersonal-Evolucionde
         .xConfig({
           title:"Percepción"
         })
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          }
+        })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.date;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .groupBy("date")
+        .groupPadding(30)
         .render();
       }
 
@@ -451,7 +500,22 @@ d3.json("data/contexto-general/socio-cultural/ConfianzaInterpersonal-Evolucionde
         .xConfig({
           title:"Percepción"
         })
+        .shapeConfig({
+          label: function(d) {
+            return d.value+"%";
+          }
+        })
+        .legendTooltip({
+          title: function(d) {
+            var txt = d.date;
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();;
+          },
+          body: function(d) {
+            return null;
+          }
+        })
         .groupBy("date")
+        .groupPadding(30)
         .render();
       }
 
@@ -463,8 +527,7 @@ d3.json("data/contexto-general/socio-cultural/DimensionHumana-IndicedeDesarrollo
       function makeViz13(data,container){
         var vis13 = new d3plus.Plot()
         .data(data)
-        .size("idh")
-        .sizeMin(1)
+        .sizeMin(10)
         .sizeMax(10)
         .tooltipConfig({
           body: function(d) {
@@ -473,20 +536,35 @@ d3.json("data/contexto-general/socio-cultural/DimensionHumana-IndicedeDesarrollo
             table += "<tr><td class='title'>IDH:</td><td class='data'>" + d.idh + "</td></tr>";
             table += "</table>";
             return table;
+          },
+          title: function(d) {
+            var txt = d.country;
+            return txt;
+          }
+        })
+        .shapeConfig({
+          Circle: {
+            fill: d => (d.country === 'Chile' ? '#CA3650' : 'gray'),
           }
         })
         .select(container)
         .discrete("x")
         .x("country")
+        .xSort(function (a, b) {
+          return b.idh - a.idh;
+        })
+        //.xSort(['Chile','Argentina','Uruguay','Panamá',''])
         .xConfig({
           title:"País"
         })
-        .y("ranking")
+        .y("idh")
         .yConfig({
-          title:"Ranking"
+          title:"Indice de Desarrollo Humano"
         })
-        .yDomain([0,130])
+        .legend(false)
+        .yDomain([0.6,1])
         .render();
+        console.log(vis13.xSort());
       }
 
 
@@ -498,15 +576,13 @@ d3.json("data/contexto-general/socio-cultural/DimensionHumana-TheGlobalGenderGap
       function makeViz14(data,container){
         var vis14 = new d3plus.Plot()
         .data(data)
-        .size("score")
         .sizeMin(5)
-        .sizeMax(15)
+        .sizeMax(5)
         .tooltipConfig({
           body: function(d) {
             var table = "<table class='tooltip-table'>"; 
             table += "<tr><td class='title'>Variable:</td><td class='data'>" + d.category + "</td></tr>";
             table += "<tr><td class='title'>Ranking:</td><td class='data'>" + d.ranking + "</td></tr>";
-            table += "<tr><td class='title'>Puntaje:</td><td class='data'>" + d.score + "</td></tr>";
             table += "</table>";
             return table;
           }
@@ -517,11 +593,11 @@ d3.json("data/contexto-general/socio-cultural/DimensionHumana-TheGlobalGenderGap
         .xConfig({
           title:"Variable"
         })
-        .y("ranking")
+        .y("score")
         .yConfig({
-          title:"Ranking"
+          title:"Puntaje"
         })
-        .yDomain([0,130])
+        .yDomain([0,1])
         .groupBy("year")
         .render();
       }
@@ -552,11 +628,37 @@ d3.json("data/contexto-general/socio-cultural/DimensionHumana-TheGlobalGenderGap
         .yConfig({
           title:"Ranking"
         })
-        .select(container)
-        .discrete("x")
-        .x("country")
+        .annotations([
+          {
+            data: [
+              {
+                x: 'Bolivia',
+                y: 63,
+              },
+              {
+                x: 'Paraguay',
+                y: 63,
+              },
+            ],
+            shape: 'Line',
+            stroke: '#ca3650',
+            strokeDasharray: 5,
+            strokeWidth: 1,
+          },
+        ])
+        .select('#viz_15')
+        .shapeConfig({
+          fill: d => (d.country === 'Chile' ? '#ca3650' : 'gray'),
+        })
+        .legend(false)
+        .discrete('x')
+        .yDomain([100, 1])
+        .x('country')
+        .xSort(function (a, b) {
+          return a.ranking - b.ranking;
+        })
         .xConfig({
-          title:"País"
+          title: 'País',
         })
         .render();
       }
