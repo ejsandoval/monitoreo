@@ -1,0 +1,14 @@
+{
+	"areas":
+	{
+		"1": "Forestal",
+		"2": "Agrícola",
+		"3": "Pecuario",
+		"4": "Pesca y Acuicultura",
+		"5": "Agua potable y saneamiento",
+		"6": "Minería",
+		"7": "Turismo",
+		"8": "Medioambiente",
+		"9": "Sin clasificar"
+	}
+}
